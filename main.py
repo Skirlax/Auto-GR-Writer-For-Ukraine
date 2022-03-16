@@ -28,6 +28,7 @@ class MainRun:
                     sleep(how_long_to_wait)
                 except KeyboardInterrupt:
                     print("Exiting the program...")
+                    wr.write_logs(place, url)
                     exit(0)
             wr.write_logs(place, url)
 
