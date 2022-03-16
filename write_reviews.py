@@ -149,7 +149,7 @@ class WriteGoogleReviews:
                 result_str += x
             for b in result_str:
                 if '[' in b or ']' in b or "'" in b:
-                    b.replace(b, "")
+                    b = b.replace(b, "")
 
         return result_str
 

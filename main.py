@@ -24,6 +24,7 @@ class MainRun:
                           "so we can stay undetected"
                           "Press: 'Ctrl + c' anytime to exit")
                     wr.remove_places_from_list()
+                    number_of_reviews_written = 0
                     sleep(how_long_to_wait)
                 except KeyboardInterrupt:
                     print("Exiting the program...")
