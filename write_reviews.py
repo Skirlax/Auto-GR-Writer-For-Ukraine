@@ -60,7 +60,7 @@ class WriteGoogleReviews:
             print(c.get('name'))
 
     def read_places(self, where_to_read): # Used to read the current place from the text file called restaurants.txt
-        with open("restaurant_names.txt") as file:
+        with open("restaurant_names.txt", "r+", encoding='UTF-8') as file:
             place = file.readlines()
             return str(np.char.strip(place[where_to_read]))
 
@@ -143,7 +143,7 @@ class WriteGoogleReviews:
 
     def read_default_message(self):
         result_str = ''
-        with open('message.txt') as file:
+        with open('message.txt', 'r+', encoding='UTF-8') as file:
             _ = file.readlines()
             for x in _:
                 result_str += x
