@@ -189,7 +189,7 @@ class WriteGoogleReviews:
             f.writelines(_)
 
     def write_logs(self, current_place, url):
-        with open(f'logs/{datetime.now().strftime("%b %d %Y %H:%M:%S")}', 'w+') as log:
+        with open(f'logs/{datetime.now().strftime("%b %d %Y %H:%M:%S")}', 'w+',encoding='UTF-8') as log:
             log.write(
                 f"""Writing recension to '{current_place}' done at {datetime.now().strftime("%b %d %Y %H:%M:%S")}.
                  Place removed from list of usable places. The review may be found on the following URL: '{url}'""")
