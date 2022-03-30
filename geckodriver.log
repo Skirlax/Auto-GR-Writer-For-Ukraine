@@ -1,0 +1,902 @@
+1646562048267	geckodriver	INFO	Listening on 127.0.0.1:58033
+1646562048274	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54227" "-no-remote" "-profile" "/tmp/rust_mozprofileCcfujM"
+
+(firefox:4367): Gtk-WARNING **: 11:20:48.475: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646562049187	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCcfujM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54227/devtools/browser/18c8e35a-2c1d-417a-8b1d-d13e799b6983
+1646562050426	Marionette	INFO	Listening on port 35679
+1646562050497	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=cs&continue=https://www.google.com/maps&gae=cb- line 1 > eval line 5166 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=cs&continue=https://www.google.com/maps&gae=cb- line 1 > eval line 3607 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1646562327204	geckodriver	INFO	Listening on 127.0.0.1:45393
+1646562327211	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49893" "-no-remote" "-profile" "/tmp/rust_mozprofileA6GVL2"
+
+(firefox:6014): Gtk-WARNING **: 11:25:27.264: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646562327875	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileA6GVL2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49893/devtools/browser/b549adf8-d576-47bb-be2f-faea5727163b
+1646562329059	Marionette	INFO	Listening on port 38277
+1646562329129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646562336635	Marionette	INFO	Stopped listening on port 38277
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646562340837	geckodriver	INFO	Listening on 127.0.0.1:60903
+1646562340842	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54437" "-no-remote" "-profile" "/tmp/rust_mozprofileAIr20b"
+
+(firefox:6251): Gtk-WARNING **: 11:25:40.892: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646562341485	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAIr20b/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54437/devtools/browser/16591b8b-6fb6-4b9c-b259-a45ccf871d3b
+1646562342640	Marionette	INFO	Listening on port 44197
+1646562342664	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=cs&continue=https://www.google.com/maps&gae=cb- line 1 > eval line 5612 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=cs&continue=https://www.google.com/maps&gae=cb- line 1 > eval line 2336 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+(firefox:6251): GLib-GObject-WARNING **: 11:26:32.265: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f60d08803b0' of type 'MaiAtkType139'
+
+(firefox:6251): GLib-GObject-WARNING **: 11:26:32.363: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f60d6cdf6b0' of type 'MaiAtkType139'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=cs&continue=https%3A%2F%2Fwww.google.com%2Fmaps&gae=cb-&flowName=GlifWebSignIn&flowEntry=ServiceLogin line 1 > eval line 5796 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1646562439164	Marionette	INFO	Stopped listening on port 44197
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646562445116	geckodriver	INFO	Listening on 127.0.0.1:52305
+1646562445120	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44017" "-no-remote" "-profile" "/tmp/rust_mozprofile7Y8hEj"
+
+(firefox:6838): Gtk-WARNING **: 11:27:25.174: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646562445765	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7Y8hEj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44017/devtools/browser/58ecf395-7ed2-401f-bd2f-09eda62c1d07
+1646562446829	Marionette	INFO	Listening on port 35649
+1646562446938	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=cs&continue=https://www.google.com/maps&gae=cb- line 1 > eval line 2948 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=cs&continue=https://www.google.com/maps&gae=cb- line 1 > eval line 5527 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+(firefox:6838): GLib-GObject-WARNING **: 11:28:27.137: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f78736c6d70' of type 'MaiAtkType139'
+
+(firefox:6838): GLib-GObject-WARNING **: 11:28:27.494: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f78753f8890' of type 'MaiAtkType139'
+
+(firefox:6838): GLib-GObject-WARNING **: 11:29:01.145: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f7871f577d0' of type 'MaiAtkType13b'
+
+(firefox:6838): GLib-GObject-WARNING **: 11:29:18.025: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f786ab18b30' of type 'MaiAtkType139'
+
+(firefox:6838): GLib-GObject-WARNING **: 11:30:35.755: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f786b1fe770' of type 'MaiAtkType139'
+
+(firefox:6838): GLib-GObject-WARNING **: 11:32:58.803: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f7860399110' of type 'MaiAtkType139'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript warning: https://code.jquery.com/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 143 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+JavaScript error: https://www.seleniumeasy.com/sites/default/files/js/js_1pwJufKjiQsl5tLfRR9NEVuVtIW5DVu-beBr8FbgvmM.js, line 10: TypeError: $(...).get(...) is undefined
+
+(firefox:6838): GLib-GObject-WARNING **: 11:36:58.214: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f783c2fc410' of type 'MaiAtkType139'
+
+(firefox:6838): GLib-GObject-WARNING **: 11:37:10.673: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f7858bfd650' of type 'MaiAtkType139'
+JavaScript error: https://tech.rochester.edu/tutorials/enable-javascript-on-mozilla-firefox/ line 245 > injectedScript, line 5: ReferenceError: gtmYTplayers is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1646563297697	Marionette	INFO	Stopped listening on port 35649
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646563301093	geckodriver	INFO	Listening on 127.0.0.1:36685
+1646563301103	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54365" "-no-remote" "-profile" "/tmp/rust_mozprofilejiDTWQ"
+
+(firefox:9341): Gtk-WARNING **: 11:41:41.148: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646563301714	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejiDTWQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54365/devtools/browser/77226664-c20d-4b7b-8200-c71b4423ba0f
+1646563302852	Marionette	INFO	Listening on port 33273
+1646563302925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:9341): GLib-GObject-WARNING **: 11:42:33.318: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f4fe232d5f0' of type 'MaiAtkType21'
+
+(firefox:9341): GLib-GObject-WARNING **: 11:42:33.366: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f4fe23df2f0' of type 'MaiAtkType21'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1646563386315	geckodriver	INFO	Listening on 127.0.0.1:35193
+1646563386325	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43613" "-no-remote" "-profile" "/tmp/rust_mozprofilet9g9AQ"
+
+(firefox:9739): Gtk-WARNING **: 11:43:06.378: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646563386957	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilet9g9AQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43613/devtools/browser/f7267468-17ad-4f50-9030-7694d9a8ecc8
+1646563388177	Marionette	INFO	Listening on port 33959
+1646563388245	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646563400345	Marionette	INFO	Stopped listening on port 33959
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646563414746	geckodriver	INFO	Listening on 127.0.0.1:34991
+1646563414755	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58973" "-no-remote" "-profile" "/tmp/rust_mozprofilerTzZmv"
+
+(firefox:10044): Gtk-WARNING **: 11:43:34.800: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646563415378	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerTzZmv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58973/devtools/browser/9235f21c-a969-4e0d-9bee-6fa8b11acd8a
+1646563416526	Marionette	INFO	Listening on port 35779
+1646563416573	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646563429549	Marionette	INFO	Stopped listening on port 35779
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646563499430	geckodriver	INFO	Listening on 127.0.0.1:37589
+1646563499437	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49083" "-no-remote" "-profile" "/tmp/rust_mozprofile8MtPZA"
+
+(firefox:10463): Gtk-WARNING **: 11:44:59.484: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646563500088	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8MtPZA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49083/devtools/browser/af381fcf-ca87-4ea4-8bda-3ae1a64e7327
+1646563501294	Marionette	INFO	Listening on port 44611
+1646563501354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:10463): GLib-GObject-WARNING **: 11:45:23.385: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f56191a8590' of type 'MaiAtkType139'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1646563758463	geckodriver	INFO	Listening on 127.0.0.1:55769
+1646563758472	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37923" "-no-remote" "-profile" "/tmp/rust_mozprofilehfLtAX"
+
+(firefox:11357): Gtk-WARNING **: 11:49:18.519: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646563759106	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehfLtAX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37923/devtools/browser/52a627ea-9566-4dc6-8180-b2d95b255481
+1646563760158	Marionette	INFO	Listening on port 38917
+1646563760193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:11357): GLib-GObject-WARNING **: 11:49:39.363: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f52b4c9f350' of type 'MaiAtkType139'
+
+(firefox:11357): GLib-GObject-WARNING **: 11:50:17.602: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f52ad6bb710' of type 'MaiAtkType139'
+1646563861607	Marionette	INFO	Stopped listening on port 38917
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646563879926	geckodriver	INFO	Listening on 127.0.0.1:44083
+1646563879935	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47107" "-no-remote" "-profile" "/tmp/rust_mozprofile8pQyt5"
+
+(firefox:11926): Gtk-WARNING **: 11:51:19.980: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646563880562	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8pQyt5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47107/devtools/browser/469c61a8-a25e-4da1-9d6c-fdc2c038a705
+1646563881682	Marionette	INFO	Listening on port 39961
+1646563881760	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646563916893	Marionette	INFO	Stopped listening on port 39961
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646564103705	geckodriver	INFO	Listening on 127.0.0.1:60747
+1646564103714	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57919" "-no-remote" "-profile" "/tmp/rust_mozprofileqYXZRN"
+
+(firefox:12677): Gtk-WARNING **: 11:55:03.759: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646564104387	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqYXZRN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57919/devtools/browser/4a700d56-fea0-45bf-bfe6-a24b38a2ad57
+1646564105624	Marionette	INFO	Listening on port 45961
+1646564105732	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646564116498	Marionette	INFO	Stopped listening on port 45961
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646564391613	geckodriver	INFO	Listening on 127.0.0.1:54921
+1646564391621	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36399" "-no-remote" "-profile" "/tmp/rust_mozprofilea84hiA"
+
+(firefox:13412): Gtk-WARNING **: 11:59:51.668: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646564392262	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea84hiA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36399/devtools/browser/676bd821-1d08-49b5-ab8a-5d62780f5055
+1646564393515	Marionette	INFO	Listening on port 34011
+1646564393539	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646564398427	Marionette	INFO	Stopped listening on port 34011
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646564435571	geckodriver	INFO	Listening on 127.0.0.1:42579
+1646564435578	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55597" "-no-remote" "-profile" "/tmp/rust_mozprofileEed963"
+
+(firefox:13823): Gtk-WARNING **: 12:00:35.622: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646564436214	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEed963/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55597/devtools/browser/4f224248-8b61-400f-9300-0424d122053b
+1646564437418	Marionette	INFO	Listening on port 36247
+1646564437495	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646564453912	Marionette	INFO	Stopped listening on port 36247
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646564462376	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1646565254169	geckodriver	INFO	Listening on 127.0.0.1:49233
+1646565254175	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59635" "-no-remote" "-profile" "/tmp/rust_mozprofileNJDieP"
+
+(firefox:15609): Gtk-WARNING **: 12:14:14.221: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646565254803	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNJDieP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59635/devtools/browser/5a031612-303b-4f9c-aca5-133bea35d569
+1646565255883	Marionette	INFO	Listening on port 44775
+1646565255996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646565283621	Marionette	INFO	Stopped listening on port 44775
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646565594717	geckodriver	INFO	Listening on 127.0.0.1:60143
+1646565594727	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45019" "-no-remote" "-profile" "/tmp/rust_mozprofileM1cK8F"
+
+(firefox:16809): Gtk-WARNING **: 12:19:54.772: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646565595343	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileM1cK8F/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45019/devtools/browser/5a3d64af-c760-4bf1-9575-a852be20c276
+1646565596442	Marionette	INFO	Listening on port 38831
+1646565596543	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:16809): GLib-GObject-WARNING **: 12:20:03.114: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f5f48b1fb30' of type 'MaiAtkType139'
+
+(firefox:16809): GLib-GObject-WARNING **: 12:23:51.300: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f5f39e59fb0' of type 'MaiAtkType21'
+
+(firefox:16809): GLib-GObject-WARNING **: 12:24:09.335: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f5f40b78a70' of type 'MaiAtkType21'
+
+(firefox:16809): GLib-GObject-WARNING **: 12:24:53.769: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f5f395feef0' of type 'MaiAtkType13b'
+
+(firefox:16809): GLib-GObject-WARNING **: 12:25:08.688: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f5f68108770' of type 'MaiAtkType13b'
+
+(firefox:16809): GLib-GObject-WARNING **: 12:25:15.313: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f5f3690b710' of type 'MaiAtkType139'
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 4448 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 1323 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/cYUZDpkDTLiaCxFKW6PIDwgD40qdhgxPHck_a-4gLzE.js line 1 > eval line 6619 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+(firefox:16809): GLib-GObject-WARNING **: 12:25:33.694: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f5f4b0a8fb0' of type 'MaiAtkType139'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1646565958822	geckodriver	INFO	Listening on 127.0.0.1:42029
+1646565958832	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39849" "-no-remote" "-profile" "/tmp/rust_mozprofileyUBHXY"
+
+(firefox:18147): Gtk-WARNING **: 12:25:58.876: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646565959452	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyUBHXY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39849/devtools/browser/336fe932-4b6f-4010-b7ca-3fd25b1cbd4e
+1646565960634	Marionette	INFO	Listening on port 41209
+1646565960656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:18147): GLib-GObject-WARNING **: 12:26:06.037: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f1c27f09050' of type 'MaiAtkType13b'
+
+(firefox:18147): GLib-GObject-WARNING **: 12:26:17.698: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f1c2c86bfb0' of type 'MaiAtkType139'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1646565992384	geckodriver	INFO	Listening on 127.0.0.1:48001
+1646565992399	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44123" "-no-remote" "-profile" "/tmp/rust_mozprofilePWDUYX"
+
+(firefox:18552): Gtk-WARNING **: 12:26:32.451: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646565993044	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePWDUYX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44123/devtools/browser/f4b6e12e-0935-4388-9db1-0e4483a782cb
+1646565994132	Marionette	INFO	Listening on port 41071
+1646565994218	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:18552): GLib-GObject-WARNING **: 12:26:38.274: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7fa2aa1881d0' of type 'MaiAtkType13b'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1646566019037	geckodriver	INFO	Listening on 127.0.0.1:38065
+1646566019048	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53657" "-no-remote" "-profile" "/tmp/rust_mozprofilePGbR9p"
+
+(firefox:18869): Gtk-WARNING **: 12:26:59.093: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646566019684	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePGbR9p/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53657/devtools/browser/fbc558c2-684e-42c7-9277-186b58b7eab8
+1646566020879	Marionette	INFO	Listening on port 35399
+1646566020983	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:18869): GLib-GObject-WARNING **: 12:27:05.071: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f2279c03530' of type 'MaiAtkType13b'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1646566634887	geckodriver	INFO	Listening on 127.0.0.1:43275
+1646566955783	geckodriver	INFO	Listening on 127.0.0.1:41421
+1646566956077	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56869" "-no-remote" "-profile" "/tmp/rust_mozprofileVPKCTe"
+
+(firefox:22782): Gtk-WARNING **: 12:42:36.123: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646566956622	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:56869/devtools/browser/516b8f26-e512-4b0f-a457-cbfb333292d2
+1646566957673	Marionette	INFO	Listening on port 39057
+1646566957699	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.cs.RrQlbN4lYKU.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dw,bom,b/am=OxSB/rt=j/d=1/rs=ACT90oETzkTHJzEuxP-xdJlkjPsUE_cBEw, line 2194: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8437: WebGL warning: copyTexSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8437: WebGL warning: copyTexSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+1646566978676	Marionette	INFO	Stopped listening on port 39057
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646567054808	geckodriver	INFO	Listening on 127.0.0.1:39405
+1646567054814	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56791" "-no-remote" "-profile" "/tmp/rust_mozprofilelne4wr"
+
+(firefox:23476): Gtk-WARNING **: 12:44:14.863: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646567055438	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelne4wr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56791/devtools/browser/f1d32b1e-8702-4d2f-8c18-9efc178b9fcd
+1646567056628	Marionette	INFO	Listening on port 33119
+1646567056746	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1646567062929	geckodriver	INFO	Listening on 127.0.0.1:40271
+1646567062934	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60703" "-no-remote" "-profile" "/tmp/rust_mozprofilecKcURA"
+
+(firefox:23700): Gtk-WARNING **: 12:44:22.994: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646567063591	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecKcURA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60703/devtools/browser/0c5d3954-3003-45b4-9373-b6bbb8ed9e00
+1646567064648	Marionette	INFO	Listening on port 41449
+1646567064753	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1646567167228	geckodriver	INFO	Listening on 127.0.0.1:47789
+1646567167236	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41167" "-no-remote" "-profile" "/tmp/rust_mozprofilej0dDCk"
+
+(firefox:24437): Gtk-WARNING **: 12:46:07.283: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646567167862	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilej0dDCk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41167/devtools/browser/336d97c0-3d30-4969-8261-fa07b9c82e1b
+1646567168886	Marionette	INFO	Listening on port 33827
+1646567168954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646567185774	Marionette	INFO	Stopped listening on port 33827
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646567188814	geckodriver	INFO	Listening on 127.0.0.1:59553
+1646567188824	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53507" "-no-remote" "-profile" "/tmp/rust_mozprofilezAt4b1"
+
+(firefox:24727): Gtk-WARNING **: 12:46:28.879: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646567189471	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezAt4b1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53507/devtools/browser/a5be03de-661e-431d-8dab-977a5e524c41
+1646567190532	Marionette	INFO	Listening on port 35893
+1646567190652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:24727): GLib-GObject-WARNING **: 12:46:58.375: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f250869fe90' of type 'MaiAtkType13b'
+
+(firefox:24727): GLib-GObject-WARNING **: 12:47:04.370: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f2513de4950' of type 'MaiAtkType139'
+JavaScript warning: resource://gre/modules/Troubleshoot.jsm, line 703: WebGL context was lost.
+JavaScript warning: resource://gre/modules/Troubleshoot.jsm, line 703: WebGL context was lost.
+
+(nemo:25294): Gtk-WARNING **: 12:48:28.727: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+
+** (nemo:25294): WARNING **: 12:48:28.781: Current gtk theme is not known to have nemo support (gtk-master) - checking...
+ImportError: could not import gobject (error was: ModuleNotFoundError("No module named 'gi'"))
+
+** (nemo:25294): WARNING **: 12:48:28.926: pygobject initialization failed
+
+** (nemo:25294): WARNING **: 12:48:28.926: nemo_python_init_python failed
+Nemo-Share-Message: 12:48:29.216: Called "net usershare info" but it failed: 'net usershare' returned error 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error No such file or directory
+Please ask your system administrator to enable user sharing.
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1646567404022	geckodriver	INFO	Listening on 127.0.0.1:55787
+1646567406302	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54689" "-no-remote" "-profile" "/tmp/rust_mozprofilehz27K3"
+
+(firefox:25705): Gtk-WARNING **: 12:50:06.348: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646567406778	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:54689/devtools/browser/f00a9c47-af74-46f0-8dc9-30737b1a71eb
+1646567407347	Marionette	INFO	Listening on port 33071
+1646567407412	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646567423378	Marionette	INFO	Stopped listening on port 33071
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646570073191	geckodriver	INFO	Listening on 127.0.0.1:54307
+1646570073198	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--enable-javascript" "--remote-debugging-port" "41797" "-no-remote" "-profile" "/tmp/rust_mozprofileBcXRBQ"
+
+(firefox:29546): Gtk-WARNING **: 13:34:33.242: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646570073806	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBcXRBQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41797/devtools/browser/92f0b80e-93f3-4bbd-b8ee-2130ddcb0479
+1646570075145	Marionette	INFO	Listening on port 32849
+1646570075237	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=cs&continue=https://www.google.com/maps&gae=cb- line 1 > eval line 6626 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=cs&continue=https://www.google.com/maps&gae=cb- line 1 > eval line 3918 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+(firefox:29546): GLib-GObject-WARNING **: 13:35:44.199: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f60df6e7f50' of type 'MaiAtkType139'
+
+(firefox:29546): GLib-GObject-WARNING **: 13:35:44.574: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f60e25421d0' of type 'MaiAtkType139'
+
+(firefox:29546): GLib-GObject-WARNING **: 13:35:55.216: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f60d4f2bc50' of type 'MaiAtkType13b'
+Nemo-Share-Message: 13:36:13.512: Called "net usershare info" but it failed: 'net usershare' returned error 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error No such file or directory
+Please ask your system administrator to enable user sharing.
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1646570343069	geckodriver	INFO	Listening on 127.0.0.1:39895
+1646570343078	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58311" "-no-remote" "-profile" "/tmp/rust_mozprofileJ3dXGk"
+
+(firefox:30449): Gtk-WARNING **: 13:39:03.141: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646570343782	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJ3dXGk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58311/devtools/browser/87c35dc8-f473-4ab0-a520-c4022c49fd95
+1646570344995	Marionette	INFO	Listening on port 33777
+1646570345100	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=cs&continue=https://www.google.com/maps&gae=cb- line 1 > eval line 2624 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=cs&continue=https://www.google.com/maps&gae=cb- line 1 > eval line 2726 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=cs&continue=https%3A%2F%2Fwww.google.com%2Fmaps&gae=cb-&flowName=GlifWebSignIn&flowEntry=ServiceLogin line 1 > eval line 4309 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=cs&continue=https%3A%2F%2Fwww.google.com%2Fmaps&gae=cb-&flowName=GlifWebSignIn&flowEntry=ServiceLogin line 1 > eval line 265 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+(firefox:30449): GLib-GObject-WARNING **: 13:39:48.735: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f410bf73fb0' of type 'MaiAtkType139'
+
+(firefox:30449): GLib-GObject-WARNING **: 13:39:49.060: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f40f3a41e30' of type 'MaiAtkType139'
+
+(firefox:30449): GLib-GObject-WARNING **: 13:40:28.769: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f40f2163470' of type 'MaiAtkType13b'
+1646570726981	geckodriver	INFO	Listening on 127.0.0.1:43737
+1646570727325	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53649" "-no-remote" "-profile" "/tmp/rust_mozprofiles2RtCE"
+
+(firefox:31658): Gtk-WARNING **: 13:45:27.391: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646570727918	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:53649/devtools/browser/09d78db0-7ac6-48f1-bf95-3700ece531e7
+1646570728987	Marionette	INFO	Listening on port 41747
+1646570729044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.cs.RrQlbN4lYKU.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dw,bom,b/am=OxSB/rt=j/d=1/rs=ACT90oETzkTHJzEuxP-xdJlkjPsUE_cBEw, line 2194: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8437: WebGL warning: copyTexSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8437: WebGL warning: copyTexSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofiles2RtCE/thumbnails) because it does not exist
+1646570800500	geckodriver	INFO	Listening on 127.0.0.1:55875
+1646570800799	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34233" "-no-remote" "-profile" "/tmp/rust_mozprofileEx3Zzu"
+
+(firefox:32284): Gtk-WARNING **: 13:46:40.844: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646570801351	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:34233/devtools/browser/25e5c0b3-ef69-4e14-aa4a-26f131cb076a
+1646570802405	Marionette	INFO	Listening on port 37871
+1646570802516	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofileEx3Zzu/thumbnails) because it does not exist
+
+(firefox:32284): GLib-GObject-WARNING **: 13:48:41.117: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f2687ddce90' of type 'MaiAtkType139'
+
+(firefox:32284): GLib-GObject-WARNING **: 13:48:43.150: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f2667dcd770' of type 'MaiAtkType1'
+
+(firefox:32284): GLib-GObject-WARNING **: 13:48:43.150: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f2667dcd050' of type 'MaiAtkType21'
+
+(firefox:32284): GLib-GObject-WARNING **: 13:48:49.944: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f2667e7a050' of type 'MaiAtkType21'
+
+(firefox:32284): GLib-GObject-WARNING **: 13:48:49.962: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f2667dfd8f0' of type 'MaiAtkType21'
+
+(firefox:32284): GLib-GObject-WARNING **: 13:49:05.540: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f26724b3170' of type 'MaiAtkType139'
+
+(firefox:32284): GLib-GObject-WARNING **: 13:49:06.262: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f26629dca10' of type 'MaiAtkType139'
+1646571135081	Marionette	INFO	Stopped listening on port 41747
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1646571139068	Marionette	INFO	Stopped listening on port 33777
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1646571183973	geckodriver	INFO	Listening on 127.0.0.1:59395
+1646571184268	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53711" "-no-remote" "-profile" "/tmp/rust_mozprofileARymh3"
+
+(firefox:34078): Gtk-WARNING **: 13:53:04.315: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646571184894	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:53711/devtools/browser/25a5b2ed-e773-43b8-8936-0c99ccfc0131
+1646571186078	Marionette	INFO	Listening on port 38763
+1646571186184	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofileARymh3/thumbnails) because it does not exist
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1646571314047	geckodriver	INFO	Listening on 127.0.0.1:55567
+1646571314336	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47647" "-no-remote" "-profile" "/tmp/rust_mozprofilexPDJSB"
+
+(firefox:34608): Gtk-WARNING **: 13:55:14.396: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646571314914	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:47647/devtools/browser/01667a9b-cd58-496a-96e3-a9ec1a2408d4
+1646571315992	Marionette	INFO	Listening on port 44967
+1646571316053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.cs.RrQlbN4lYKU.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dw,bom,b/am=OxSB/rt=j/d=1/rs=ACT90oETzkTHJzEuxP-xdJlkjPsUE_cBEw, line 2194: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8437: WebGL warning: copyTexSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8437: WebGL warning: copyTexSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=cs&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F%4050.0891648%2C14.336%2C13z&service=local&ec=GAZAcQ line 1 > eval line 5246 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=cs&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F%4050.0891648%2C14.336%2C13z&service=local&ec=GAZAcQ line 1 > eval line 1077 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1646571332775	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=cs&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F%4050.0891648%2C14.336%2C13z&service=local&ec=GAZAcQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin line 1 > eval line 1535 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/SignUp?service=local&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F%4050.0891648%2C14.336%2C13z&hl=cs&dsh=S1845570482%3A1646571332910250&biz=false line 1 > eval line 798 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofilexPDJSB/thumbnails) because it does not exist
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=cs&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F%4050.0891648%2C14.336%2C13z&service=local&ec=GAZAcQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin line 1 > eval line 4630 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1646571347425	Marionette	INFO	Stopped listening on port 44967
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1646571358665	geckodriver	INFO	Listening on 127.0.0.1:46851
+1646571358946	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48957" "-no-remote" "-profile" "/tmp/rust_mozprofileOxbXcv"
+
+(firefox:34923): Gtk-WARNING **: 13:55:58.991: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646571359495	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:48957/devtools/browser/f3326789-9938-4e98-96c3-b78099e36f10
+1646571360582	Marionette	INFO	Listening on port 43355
+1646571360662	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.cs.RrQlbN4lYKU.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dw,bom,b/am=OxSB/rt=j/d=1/rs=ACT90oETzkTHJzEuxP-xdJlkjPsUE_cBEw, line 2194: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8437: WebGL warning: copyTexSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8437: WebGL warning: copyTexSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1646571732425	geckodriver	INFO	Listening on 127.0.0.1:38889
+1646571732433	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41787" "-no-remote" "-profile" "/tmp/rust_mozprofile18aOZe"
+
+(firefox:36160): Gtk-WARNING **: 14:02:12.480: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646571733120	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile18aOZe/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41787/devtools/browser/518520d3-6889-4269-9703-b0655b324e60
+1646571734182	Marionette	INFO	Listening on port 33115
+1646571734252	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:36160): GLib-GObject-WARNING **: 14:02:46.557: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f844cfad530' of type 'MaiAtkType139'
+
+(firefox:36160): GLib-GObject-WARNING **: 14:02:46.557: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f844cfad8f0' of type 'MaiAtkType139'
+1646571825635	geckodriver	INFO	Listening on 127.0.0.1:54389
+1646571825641	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43409" "-no-remote" "-profile" "/tmp/rust_mozprofilebCvO1z"
+
+(firefox:36537): Gtk-WARNING **: 14:03:45.687: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646571826252	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebCvO1z/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43409/devtools/browser/190e74ae-2287-4309-a86d-c4f875702585
+1646571827370	Marionette	INFO	Listening on port 44255
+1646571827459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:36537): GLib-GObject-WARNING **: 14:04:29.704: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f01184db2f0' of type 'MaiAtkType13b'
+JavaScript warning: https://www.softwaretestinghelp.com/wp-content/plugins/mtouch-quiz/script.js?ver=3.1.3, line 1: unreachable code after return statement
+
+(firefox:36537): GLib-GObject-WARNING **: 14:05:25.871: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f011598c650' of type 'MaiAtkType139'
+
+(firefox:36537): GLib-GObject-WARNING **: 14:05:25.871: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f011598c350' of type 'MaiAtkType139'
+1646571948311	geckodriver	INFO	Listening on 127.0.0.1:58851
+1646571948317	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58133" "-no-remote" "-profile" "/tmp/rust_mozprofileLikGEh"
+
+(firefox:37075): Gtk-WARNING **: 14:05:48.361: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646571948928	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLikGEh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58133/devtools/browser/998161ea-7a77-48ed-ae6c-9f9ee3506ce9
+1646571949967	Marionette	INFO	Listening on port 46477
+1646571950035	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1646571984205	Marionette	INFO	Stopped listening on port 44255
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1646571985518	Marionette	INFO	Stopped listening on port 33115
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal2147483650/domnode159, type setNodeValue failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+showTextEditor/done/</<@resource://devtools/client/inspector/markup/views/text-editor.js:101:25
+do@resource://devtools/client/shared/undo.js:70:16
+endBatch@resource://devtools/client/shared/undo.js:81:11
+do@resource://devtools/client/shared/undo.js:93:10
+showTextEditor/done/<@resource://devtools/client/inspector/markup/views/text-editor.js:99:31
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1646571988074	Marionette	INFO	Stopped listening on port 46477
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1646572085521	geckodriver	INFO	Listening on 127.0.0.1:48631
+1646572085529	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33823" "-no-remote" "-profile" "/tmp/rust_mozprofileykMHNa"
+
+(firefox:37665): Gtk-WARNING **: 14:08:05.586: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646572086171	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileykMHNa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33823/devtools/browser/e3b22a78-39d1-4e9a-87c1-61e1c8920bd8
+1646572087323	Marionette	INFO	Listening on port 46757
+1646572087348	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://stackoverflow.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://stackoverflow.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://stackoverflow.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?client_id=717762328687-iludtf96g1hinl76e4lc1b9a82g457nn.apps.googleusercontent.com&scope=profile+email&redirect_uri=https%3a%2f%2fstackauth.com%2fauth%2foauth2%2fgoogle&state=%7b%22sid%22%3a1%2c%22st%22%3a%2259%3a3%3abbc%2c16%3a4950e75a134bd3ce%2c10%3a1646572103%2c16%3a44939d32c08aa08d%2c33d87d1cce296eb83cf1676507b438eeb2793a8c08a9abbf7382045d7563e1dd%22%2c%22cid%22%3a%22717762328687-iludtf96g1hinl76e4lc1b9a82g457nn.apps.googleusercontent.com%22%2c%22k%22%3a%22Google%22%2c%22ses%22%3a%22d2da7f4067eb4a0f98b7936a444f9451%22%7d&response_type=code line 1 > eval line 3090 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1646572119396	geckodriver	INFO	Listening on 127.0.0.1:54283
+1646572119402	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55659" "-no-remote" "-profile" "/tmp/rust_mozprofilexcDEtm"
+
+(firefox:37952): Gtk-WARNING **: 14:08:39.447: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646572120057	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexcDEtm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55659/devtools/browser/c536c934-2fbe-4ce5-808e-c21d426ec7a7
+1646572121103	Marionette	INFO	Listening on port 35327
+1646572121127	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://stackoverflow.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://stackoverflow.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://stackoverflow.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?client_id=717762328687-iludtf96g1hinl76e4lc1b9a82g457nn.apps.googleusercontent.com&scope=profile+email&redirect_uri=https%3a%2f%2fstackauth.com%2fauth%2foauth2%2fgoogle&state=%7b%22sid%22%3a1%2c%22st%22%3a%2259%3a3%3abbc%2c16%3acc965edfe120b402%2c10%3a1646572138%2c16%3a9c2e8412067a65c6%2cc480b5113cbe58dd7aa33e58dec91f55ca68f9e84294fc449edef2d503c15623%22%2c%22cid%22%3a%22717762328687-iludtf96g1hinl76e4lc1b9a82g457nn.apps.googleusercontent.com%22%2c%22k%22%3a%22Google%22%2c%22ses%22%3a%22dbabe5fe6ab74b54984b9099dc714f1d%22%7d&response_type=code line 1 > eval line 3755 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?client_id=717762328687-iludtf96g1hinl76e4lc1b9a82g457nn.apps.googleusercontent.com&scope=profile+email&redirect_uri=https%3a%2f%2fstackauth.com%2fauth%2foauth2%2fgoogle&state=%7b%22sid%22%3a1%2c%22st%22%3a%2259%3a3%3abbc%2c16%3acc965edfe120b402%2c10%3a1646572138%2c16%3a9c2e8412067a65c6%2cc480b5113cbe58dd7aa33e58dec91f55ca68f9e84294fc449edef2d503c15623%22%2c%22cid%22%3a%22717762328687-iludtf96g1hinl76e4lc1b9a82g457nn.apps.googleusercontent.com%22%2c%22k%22%3a%22Google%22%2c%22ses%22%3a%22dbabe5fe6ab74b54984b9099dc714f1d%22%7d&response_type=code line 1 > eval line 5733 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1646572509127	geckodriver	INFO	Listening on 127.0.0.1:50347
+1646572509135	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45197" "-no-remote" "-profile" "/tmp/rust_mozprofileXoyGmW"
+
+(firefox:39096): Gtk-WARNING **: 14:15:09.191: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646572509858	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXoyGmW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45197/devtools/browser/e6ce19b7-0dff-48c6-8822-240a4af6a4f8
+1646572511048	Marionette	INFO	Listening on port 38415
+1646572511158	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://stackoverflow.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://stackoverflow.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://stackoverflow.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?client_id=717762328687-iludtf96g1hinl76e4lc1b9a82g457nn.apps.googleusercontent.com&scope=profile+email&redirect_uri=https%3a%2f%2fstackauth.com%2fauth%2foauth2%2fgoogle&state=%7b%22sid%22%3a1%2c%22st%22%3a%2259%3a3%3abbc%2c16%3a0d8515fae34ffd6d%2c10%3a1646572527%2c16%3a30f5d2c8c8d50932%2c6ef34345010803233fe96998cf5c3c8f8365e77a97c66fc866f3ae8ccd379767%22%2c%22cid%22%3a%22717762328687-iludtf96g1hinl76e4lc1b9a82g457nn.apps.googleusercontent.com%22%2c%22k%22%3a%22Google%22%2c%22ses%22%3a%22dcfa08648f514f13992b20cfe5745eb7%22%7d&response_type=code line 1 > eval line 6681 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?client_id=717762328687-iludtf96g1hinl76e4lc1b9a82g457nn.apps.googleusercontent.com&scope=profile+email&redirect_uri=https%3a%2f%2fstackauth.com%2fauth%2foauth2%2fgoogle&state=%7b%22sid%22%3a1%2c%22st%22%3a%2259%3a3%3abbc%2c16%3a0d8515fae34ffd6d%2c10%3a1646572527%2c16%3a30f5d2c8c8d50932%2c6ef34345010803233fe96998cf5c3c8f8365e77a97c66fc866f3ae8ccd379767%22%2c%22cid%22%3a%22717762328687-iludtf96g1hinl76e4lc1b9a82g457nn.apps.googleusercontent.com%22%2c%22k%22%3a%22Google%22%2c%22ses%22%3a%22dcfa08648f514f13992b20cfe5745eb7%22%7d&response_type=code line 1 > eval line 1506 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1646572558365	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?client_id=717762328687-iludtf96g1hinl76e4lc1b9a82g457nn.apps.googleusercontent.com&scope=profile+email&redirect_uri=https%3A%2F%2Fstackauth.com%2Fauth%2Foauth2%2Fgoogle&state=%7B%22sid%22%3A1%2C%22st%22%3A%2259%3A3%3Abbc%2C16%3A0d8515fae34ffd6d%2C10%3A1646572527%2C16%3A30f5d2c8c8d50932%2C6ef34345010803233fe96998cf5c3c8f8365e77a97c66fc866f3ae8ccd379767%22%2C%22cid%22%3A%22717762328687-iludtf96g1hinl76e4lc1b9a82g457nn.apps.googleusercontent.com%22%2C%22k%22%3A%22Google%22%2C%22ses%22%3A%22dcfa08648f514f13992b20cfe5745eb7%22%7D&response_type=code&flowName=GeneralOAuthFlow line 1 > eval line 3227 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1646572706256	geckodriver	INFO	Listening on 127.0.0.1:48091
+1646572706263	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38247" "-no-remote" "-profile" "/tmp/rust_mozprofileRr1R6q"
+
+(firefox:39732): Gtk-WARNING **: 14:18:26.311: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646572706897	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRr1R6q/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38247/devtools/browser/ce8a3fb1-a61c-4d3e-90cf-d156934b80da
+1646572707979	Marionette	INFO	Listening on port 36397
+1646572708089	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:39732): GLib-GObject-WARNING **: 14:18:45.313: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f2972c590b0' of type 'MaiAtkType13b'
+
+(firefox:39732): GLib-GObject-WARNING **: 14:19:00.788: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f296d861470' of type 'MaiAtkType139'
+
+(firefox:39732): GLib-GObject-WARNING **: 14:19:00.788: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f296d8614d0' of type 'MaiAtkType139'
+1646572807472	geckodriver	INFO	Listening on 127.0.0.1:36407
+1646572807480	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58943" "-no-remote" "-profile" "/tmp/rust_mozprofilelmzmkp"
+
+(firefox:40188): Gtk-WARNING **: 14:20:07.543: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646572808183	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelmzmkp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58943/devtools/browser/3001cfa8-531a-4ba7-8f9c-4bae316358d9
+1646572809358	Marionette	INFO	Listening on port 39877
+1646572809398	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:40188): GLib-GObject-WARNING **: 14:20:29.979: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f2af0c70fb0' of type 'MaiAtkType13b'
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?operation=login&state=google-%7Chttps%3A%2F%2Fmedium.com%2F%3Fsource%3Dlogin--------------------------lo_home_nav--------------%7Clogin&access_type=online&client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fmedium.com%2Fm%2Fcallback%2Fgoogle&response_type=id_token%20token&scope=email%20openid%20profile&nonce=88158ca5c9d71cfdcc06d0f007d4d3a98218ad8a71162e7d667aa8cb4834776d line 1 > eval line 3598 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?operation=login&state=google-%7Chttps%3A%2F%2Fmedium.com%2F%3Fsource%3Dlogin--------------------------lo_home_nav--------------%7Clogin&access_type=online&client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fmedium.com%2Fm%2Fcallback%2Fgoogle&response_type=id_token%20token&scope=email%20openid%20profile&nonce=88158ca5c9d71cfdcc06d0f007d4d3a98218ad8a71162e7d667aa8cb4834776d line 1 > eval line 1325 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1646573289004	Marionette	INFO	Stopped listening on port 36397
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646573291127	Marionette	INFO	Stopped listening on port 39877
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646573778833	geckodriver	INFO	Listening on 127.0.0.1:49755
+1646573778838	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33901" "-no-remote" "-profile" "/tmp/rust_mozprofile7Aa5Qy"
+
+(firefox:43367): Gtk-WARNING **: 14:36:18.892: Theme parsing error: gtk.css:3:20: '' is not a valid color name
+1646573779593	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7Aa5Qy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33901/devtools/browser/6756e681-0cb9-4519-b4fd-5ee64f60da19
+1646573780651	Marionette	INFO	Listening on port 33767
+1646573780759	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:43367): GLib-GObject-WARNING **: 14:36:28.387: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7fc32a62f4d0' of type 'MaiAtkType13b'
+JavaScript warning: https://www.google.cz/maps/_/js/k=maps.m.cs.RrQlbN4lYKU.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dw,bom,b/am=OxSB/rt=j/d=1/rs=ACT90oETzkTHJzEuxP-xdJlkjPsUE_cBEw, line 2194: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.cz/maps/preview line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.cz/maps/preview line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.cz/maps/preview line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.cz/maps/preview line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.cz/maps/preview line 1456 > injectedScript, line 8437: WebGL warning: copyTexSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.cz/maps/preview line 1456 > injectedScript, line 8437: WebGL warning: copyTexSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.cz/maps/preview line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.cz/maps/preview line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.cz/maps/preview line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.cz/maps/preview line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.cz/maps/preview line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.cz/maps/preview line 1456 > injectedScript, line 8431: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.google.com%2Fmaps%2Fapi%2Fjs%2FReviewsService.CrossOriginAuthSuccess%3Fpb%3D!1shttps%253A%252F%252Fwww.google.cz&hl=cs line 1 > eval line 2696 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.google.com%2Fmaps%2Fapi%2Fjs%2FReviewsService.CrossOriginAuthSuccess%3Fpb%3D!1shttps%253A%252F%252Fwww.google.cz&hl=cs line 1 > eval line 4460 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.google.com%2Fmaps%2Fapi%2Fjs%2FReviewsService.CrossOriginAuthSuccess%3Fpb%3D!1shttps%253A%252F%252Fwww.google.cz&hl=cs line 1 > eval line 2460 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.google.com%2Fmaps%2Fapi%2Fjs%2FReviewsService.CrossOriginAuthSuccess%3Fpb%3D!1shttps%253A%252F%252Fwww.google.cz&hl=cs line 1 > eval line 3916 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.google.com%2Fmaps%2Fapi%2Fjs%2FReviewsService.CrossOriginAuthSuccess%3Fpb%3D!1shttps%253A%252F%252Fwww.google.cz&hl=cs line 1 > eval line 325 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.google.com%2Fmaps%2Fapi%2Fjs%2FReviewsService.CrossOriginAuthSuccess%3Fpb%3D!1shttps%253A%252F%252Fwww.google.cz&hl=cs line 1 > eval line 952 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1646573889580	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.google.com%2Fmaps%2Fapi%2Fjs%2FReviewsService.CrossOriginAuthSuccess%3Fpb%3D%211shttps%253A%252F%252Fwww.google.cz&hl=cs&flowName=GlifWebSignIn&flowEntry=ServiceLogin line 1 > eval line 4587 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/SignUp?continue=https%3A%2F%2Fwww.google.com%2Fmaps%2Fapi%2Fjs%2FReviewsService.CrossOriginAuthSuccess%3Fpb%3D!1shttps%253A%252F%252Fwww.google.cz&hl=cs&dsh=S1745283944%3A1646573889674099&biz=false line 1 > eval line 1897 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.google.com%2Fmaps%2Fapi%2Fjs%2FReviewsService.CrossOriginAuthSuccess%3Fpb%3D!1shttps%253A%252F%252Fwww.google.com&hl=cs line 1 > eval line 6000 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1646573920184	Marionette	INFO	Stopped listening on port 33767
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+(nemo:25294): Gtk-CRITICAL **: 14:38:47.758: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nemo:25294): Gtk-CRITICAL **: 14:45:56.722: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nemo:25294): Gtk-CRITICAL **: 18:10:47.556: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
