@@ -50,21 +50,23 @@ class WriteGoogleReviews:
             search_box.send_keys(x)
             time.sleep(random.randint(1, 3))
 
-    def search_for_places(self, search_term, key):
+    def search_for_places(self, key):
         cities = open('russian_cities.txt', 'r+', encoding='UTF-8').readlines()
         cities = [x.strip() for x in cities]
         active_city = random.choice(cities)
         url = 'https://maps.googleapis.com/maps/api/place/textsearch/json?'
-        api_key = key
+        api_key = key.strip()
         search_term = f"Resturants near {active_city} Russia"
         r = requests.get(url, 'query=' + search_term + '&key=' + api_key)
         _ = r.json()
         data = _['results']
         new_places = []
         data_names = []
+        print('Your new places are: ')
         for c in data:
             print(c.get('name'))
             data_names.append(c.get('name'))
+        print('Writing to file now...')
         # with open('restaurant_names.txt', 'r+', encoding='UTF-8') as file:
         #     lines = file.readlines()
         #     new_places = [x for x in lines if x not in data_names]

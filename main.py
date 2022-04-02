@@ -26,14 +26,14 @@ class MainRun:
                     wr.remove_places_from_list()
                     number_of_reviews_written = 0
                     sleep(how_long_to_wait)
+                    if key := gi.ask_to_find_new_places():
+                        wr.search_for_places(key)
                 except KeyboardInterrupt:
                     print("Exiting the program...")
                     wr.write_logs(place, url)
                     exit(0)
             wr.write_logs(place, url)
-            key = gi.ask_to_find_new_places()
-            if key:
-                wr.search_for_places(None, key)
+
 
 
 mr = MainRun()
