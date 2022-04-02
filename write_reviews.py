@@ -50,14 +50,28 @@ class WriteGoogleReviews:
             search_box.send_keys(x)
             time.sleep(random.randint(1, 3))
 
-    def search_for_places(self, search_term):
+    def search_for_places(self, search_term, key):
+        cities = open('russian_cities.txt', 'r+', encoding='UTF-8').readlines()
+        cities = [x.strip() for x in cities]
+        active_city = random.choice(cities)
         url = 'https://maps.googleapis.com/maps/api/place/textsearch/json?'
-        api_key = 'User your own if you want to use this method...'
+        api_key = key
+        search_term = f"Resturants near {active_city} Russia"
         r = requests.get(url, 'query=' + search_term + '&key=' + api_key)
         _ = r.json()
         data = _['results']
+        new_places = []
+        data_names = []
         for c in data:
             print(c.get('name'))
+            data_names.append(c.get('name'))
+        # with open('restaurant_names.txt', 'r+', encoding='UTF-8') as file:
+        #     lines = file.readlines()
+        #     new_places = [x for x in lines if x not in data_names]
+        new_places = [x + '\n' for x in data_names if x not in data_names]
+        open('restaurant_names.txt', 'w+', encoding='UTF-8').close()
+        with open('restaurant_names.txt', 'w+', encoding='UTF-8') as file2:
+            file2.writelines(new_places)
 
     def read_places(self, where_to_read): # Used to read the current place from the text file called restaurants.txt
         with open("restaurant_names.txt", "r+", encoding='UTF-8') as file:

@@ -24,5 +24,14 @@ class HandleUserInput:
         logged_in = input(colored("Are you logged in? (y): ", "red"))
         if logged_in == "y":
             return True
-        else: return False
-
+        else:
+            return False
+        
+    def ask_to_find_new_places(self):
+        print(colored("Do you want to find new places? (y/n): ", "green"))
+        answer = input(colored("(y/n): ", "red"))
+        if answer == "y":
+            key = input(colored("API key: ", "red"))
+            return key
+        else:
+            return False

@@ -13,7 +13,6 @@ class MainRun:
         number_of_reviews_written = 0
         message_to_write, how_long_to_wait = gi.get_input()
         wr.login_to_maps()
-        print('test')
         while True:
             place, url = wr.write_reviews(message_to_write, line_number)
             number_of_reviews_written += 1
@@ -32,6 +31,9 @@ class MainRun:
                     wr.write_logs(place, url)
                     exit(0)
             wr.write_logs(place, url)
+            key = gi.ask_to_find_new_places()
+            if key:
+                wr.search_for_places(None, key)
 
 
 mr = MainRun()
