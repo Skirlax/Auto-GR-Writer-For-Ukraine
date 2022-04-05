@@ -11,10 +11,10 @@ class MainRun:
     def run_all(self):
         line_number = 0
         number_of_reviews_written = 0
-        message_to_write, how_long_to_wait = gi.get_input()
+        how_long_to_wait = gi.get_input()
         wr.login_to_maps()
         while True:
-            place, url = wr.write_reviews(message_to_write, line_number)
+            place, url = wr.write_reviews(line_number)
             number_of_reviews_written += 1
             line_number += 1
             if number_of_reviews_written == 3:
@@ -26,8 +26,8 @@ class MainRun:
                     wr.remove_places_from_list()
                     number_of_reviews_written = 0
                     sleep(how_long_to_wait)
-                    if key := gi.ask_to_find_new_places():
-                        wr.search_for_places(key)
+                    # if key := gi.ask_to_find_new_places():
+                    #     wr.search_for_places(key)
                 except KeyboardInterrupt:
                     print("Exiting the program...")
                     wr.write_logs(place, url)
@@ -35,6 +35,5 @@ class MainRun:
             wr.write_logs(place, url)
 
 
-
-mr = MainRun()
-mr.run_all()
+if __name__ == "__main__":
+    MainRun().run_all()

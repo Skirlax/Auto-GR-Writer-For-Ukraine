@@ -50,13 +50,25 @@ class WriteGoogleReviews:
             search_box.send_keys(x)
             time.sleep(random.randint(1, 3))
 
-    def search_for_places(self, key):
-        cities = open('russian_cities.txt', 'r+', encoding='UTF-8').readlines()
-        cities = [x.strip() for x in cities]
-        active_city = random.choice(cities)
+    def search_for_places(self, key, single_write):
         url = 'https://maps.googleapis.com/maps/api/place/textsearch/json?'
+        cities = open('russian_cities.txt', 'r+', encoding='UTF-8').readlines()
+        # while temp_counter <= 30:
+        #     russian_cities = requests.get(url, 'query=' + 'All cities in Russia' + '&key=' + key)
+        #     _ = russian_cities.json()
+        #     russian_cities = _['results']
+        #     russian_cities = [x.get('name') + '\n' for x in russian_cities]
+        #     temp_counter += 1
+        #     cities.writelines(russian_cities)
+
+        # cities = [x.strip() for x in cities]
+        active_city = random.choice(cities)
+        cities.remove(active_city)
+        cities = [x + '\n' for x in cities]
+        open('russian_cities.txt', 'w+', encoding='UTF-8').close()
+        open('russian_cities.txt', 'w+', encoding='UTF-8').writelines(cities)
         api_key = key.strip()
-        search_term = f"Resturants near {active_city} Russia"
+        search_term = f"Restaurants near {active_city} Russia"
         r = requests.get(url, 'query=' + search_term + '&key=' + api_key)
         _ = r.json()
         data = _['results']
@@ -70,20 +82,33 @@ class WriteGoogleReviews:
         # with open('restaurant_names.txt', 'r+', encoding='UTF-8') as file:
         #     lines = file.readlines()
         #     new_places = [x for x in lines if x not in data_names]
-        new_places = [x + '\n' for x in data_names if x not in data_names]
-        open('restaurant_names.txt', 'w+', encoding='UTF-8').close()
-        with open('restaurant_names.txt', 'w+', encoding='UTF-8') as file2:
-            file2.writelines(new_places)
+        new_places = [x + '\n' for x in data_names if x not in open('restaurant_names.txt', 'r+', encoding='UTF-8').readlines()]
+        if not single_write:
+            open('restaurant_names.txt', 'w+', encoding='UTF-8').close()
+            with open('restaurant_names.txt', 'w+', encoding='UTF-8') as file2:
+                file2.writelines(new_places)
+        else:
+            with open('restaurant_names.txt', 'a+', encoding='UTF-8') as file2:
+                file2.writelines(new_places)
 
-    def read_places(self, where_to_read): # Used to read the current place from the text file called restaurants.txt
+    def read_places(self, where_to_read):  # Used to read the current place from the text file called restaurants.txt
         with open("restaurant_names.txt", "r+", encoding='UTF-8') as file:
             place = file.readlines()
+            if len(place) == 0:
+                if key := gi.ask_to_find_new_places():
+                    self.search_for_places(key, False)
+                else:
+                    print(
+                        "You didn't chose to find new places, but we're out. You're gonna have to refill it manually\n"
+                        "Exiting...")
+                    time.sleep(3)
+                    exit(0)
             return str(np.char.strip(place[where_to_read]))
 
-    def write_reviews(self, message_to_write, line_number):
+    def write_reviews(self,line_number):
         self.browser.get('https://www.google.com/maps/@-70.6502477,47.2431857,3z')
-        if message_to_write == 'x':
-            message_to_write = self.read_default_message()
+
+        message_to_write = self.read_default_message()
 
         place = self.search_on_maps(line_number)
         time.sleep(5)
@@ -205,8 +230,11 @@ class WriteGoogleReviews:
             f.writelines(_)
 
     def write_logs(self, current_place, url):
-        with open(f'logs/{datetime.now().strftime("%b %d %Y %H:%M:%S")}', 'w+',encoding='UTF-8') as log:
+        with open(f'logs/{datetime.now().strftime("%b %d %Y %H:%M:%S")}', 'w+', encoding='UTF-8') as log:
             log.write(
                 f"""Writing recension to '{current_place}' done at {datetime.now().strftime("%b %d %Y %H:%M:%S")}.
                  Place removed from list of usable places. The review may be found on the following URL: '{url}'""")
             log.close()
+
+
+

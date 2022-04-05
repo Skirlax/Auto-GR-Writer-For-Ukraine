@@ -1,17 +1,19 @@
+import time
+
 from termcolor import colored
 
 
 class HandleUserInput:
     def get_input(self):
-        message_to_write = input("Do you have a specific message in mind, that you want to use?"
-                                 "If so, please type it in now \n"
-                                 "If not please type 'x' and the program is going to use a default one: ")
+        print("You can edit the message you want to add in the text file called"
+                                 " 'message.txt' in the same directory as this script.")
+        time.sleep(1)
         how_long_to_wait = int(input("How long should we wait between the sessions of writing?\n"
                                      "Please keep in mind that shorter the pause, higher the risk of"
                                      "google banning your account. So choose the number wisely.\n "
                                      "Type the INTEGER (only in seconds) here: "))
 
-        return message_to_write, how_long_to_wait
+        return  how_long_to_wait
 
     def check_input(self, elements):
         for x in elements:
