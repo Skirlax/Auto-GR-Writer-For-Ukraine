@@ -13,7 +13,7 @@ class HandleUserInput:
                                      "google banning your account. So choose the number wisely.\n "
                                      "Type the INTEGER (only in seconds) here: "))
 
-        return  how_long_to_wait
+        return how_long_to_wait
 
     def check_input(self, elements):
         for x in elements:

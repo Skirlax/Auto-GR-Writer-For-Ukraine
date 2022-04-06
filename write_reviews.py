@@ -230,13 +230,15 @@ class WriteGoogleReviews:
             f.writelines(_)
 
     def write_logs(self, current_place, url):
-        with open(f'logs/BigLog', 'w+', encoding='UTF-8') as log:
-            log.write(
-                f""" \n---------------------------\n
+        with open(f'logs/BigLog.txt', 'r+', encoding='UTF-8') as log:
+            log_lines = log.readlines()
+            log_lines.append(
+                f"""---------------------------\n
                 Place: '{current_place}'\n 
                 URL: '{url}'\n
                 Time: {datetime.now().strftime("%Y-%m-%d %H-%M")}\n
-                ----------------------------""")
+                ----------------------------\n""")
+            open('logs/BigLog.txt', 'w+', encoding='UTF-8').writelines(log_lines)
             log.close()
 
 

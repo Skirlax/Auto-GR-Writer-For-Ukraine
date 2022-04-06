@@ -1,0 +1,18 @@
+---------------------------
+
+                Place: 'Lakomka'
+ 
+                URL: 'https://www.google.com/maps/place/Lakomka/@54.7872566,43.6831378,4z/data=!4m9!1m2!2m1!1sLakomka+Restaurant+Russia!3m5!1s0x414abff747ce492b:0xad0b528463177393!8m2!3d55.7932201!4d37.7879668!15sChlMYWtvbWthIFJlc3RhdXJhbnQgUnVzc2lhWhsiGWxha29ta2EgcmVzdGF1cmFudCBydXNzaWGSAQRjYWZl'
+
+                Time: 2022-04-06 17-48
+
+                ----------------------------
+---------------------------
+
+                Place: 'Burgernaya №1'
+ 
+                URL: 'https://www.google.com/maps/place/Burgernaya+%E2%84%961/@55.4322088,37.5512566,17z/data=!4m5!3m4!1s0x414aa846c6091861:0xfbe1b3607d93839d!8m2!3d55.4322471!4d37.5533448'
+
+                Time: 2022-04-06 17-55
+
+                ----------------------------
