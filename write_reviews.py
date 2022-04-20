@@ -220,7 +220,7 @@ class WriteGoogleReviews:
         return place
 
     def remove_places_from_list(self):
-        with open('restaurant_names.txt') as file:
+        with open('restaurant_names.txt', encoding='UTF-8') as file:
             _ = file.readlines()
             _.pop(0)
             _.pop(1)
