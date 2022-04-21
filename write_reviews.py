@@ -241,6 +241,12 @@ class WriteGoogleReviews:
             open('logs/BigLog.txt', 'w+', encoding='UTF-8').writelines(log_lines)
             log.close()
 
+    def remove_dups(self):
+        with open('restaurant_names.txt', 'r+', encoding='UTF-8') as file:
+            lines = file.readlines()
+            lines = list(set(lines))
+            file.close()
+        open('restaurant_names.txt', 'w+', encoding='UTF-8').writelines(lines)
 
 
 
