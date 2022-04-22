@@ -15,7 +15,15 @@ class MainRun:
         how_long_to_wait = gi.get_input()
         wr.login_to_maps()
         while True:
-            place, url = wr.write_reviews(line_number)
+            place = "unknown";
+            #TODO get place name separately from writing reviews. We do not know the place name, if error happens
+            try:
+                place, url = wr.write_reviews(line_number)
+                wr.write_logs(place, url)
+                print("review written for: " + place)
+            except:
+                print("Error writing review for: " + place)
+            wr.remove_places_from_list()
             number_of_reviews_written += 1
             line_number += 1
             if number_of_reviews_written == 3:
@@ -24,7 +32,6 @@ class MainRun:
                     print("Program is now going to wait for the time you gave us above, "
                           "so we can stay undetected"
                           "Press: 'Ctrl + c' anytime to exit")
-                    wr.remove_places_from_list()
                     number_of_reviews_written = 0
                     sleep(how_long_to_wait)
                     # if key := gi.ask_to_find_new_places():
@@ -33,7 +40,6 @@ class MainRun:
                     print("Exiting the program...")
                     wr.write_logs(place, url)
                     exit(0)
-            wr.write_logs(place, url)
 
 
 if __name__ == "__main__":

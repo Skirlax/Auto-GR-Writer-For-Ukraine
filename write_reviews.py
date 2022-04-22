@@ -111,8 +111,8 @@ class WriteGoogleReviews:
         message_to_write = self.read_default_message()
 
         place = self.search_on_maps(line_number)
-        time.sleep(5)
         time.sleep(4)
+
         _ = self.browser.find_element(By.XPATH,
                                       value='//*[@id="pane"]/div/div[1]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/span[1]/span/span[1]/span[2]/span[1]/button')
         _.click()
@@ -120,7 +120,7 @@ class WriteGoogleReviews:
         time.sleep(4)
         _ = self.browser.find_element(By.XPATH, value='//*[@id="pane"]/div/div[1]/div/div/div[2]/div[4]/div/button')
         _.click()
-        time.sleep(8)
+        time.sleep(4)
         for x in range(1, 8):
             if x == 7:
                 self.act.send_keys(Keys.SPACE)
@@ -222,22 +222,16 @@ class WriteGoogleReviews:
     def remove_places_from_list(self):
         with open('restaurant_names.txt', encoding='UTF-8') as file:
             _ = file.readlines()
-            _.pop(0)
-            _.pop(1)
-            _.pop(2)
+            _.pop(0) #removes first line
             file.close()
-        with open('restaurant_names.txt', 'w+') as f:
+        with open('restaurant_names.txt', 'w+', encoding='UTF-8') as f:
             f.writelines(_)
 
     def write_logs(self, current_place, url):
         with open(f'logs/BigLog.txt', 'r+', encoding='UTF-8') as log:
             log_lines = log.readlines()
             log_lines.append(
-                f"""---------------------------\n
-                Place: '{current_place}'\n 
-                URL: '{url}'\n
-                Time: {datetime.now().strftime("%Y-%m-%d %H-%M")}\n
-                ----------------------------\n""")
+                f"""Place: '{current_place}'\tTime: {datetime.now().strftime("%Y-%m-%d %H-%M")}\tURL: '{url}'\n""")
             open('logs/BigLog.txt', 'w+', encoding='UTF-8').writelines(log_lines)
             log.close()
 
@@ -246,7 +240,7 @@ class WriteGoogleReviews:
             lines = file.readlines()
             lines = list(set(lines))
             file.close()
-        open('restaurant_names.txt', 'w+', encoding='UTF-8').writelines(lines)
+        open('restaurant_names.txt', 'w+', encoding='UTF-8').writelines(lines)	
 
 
 
