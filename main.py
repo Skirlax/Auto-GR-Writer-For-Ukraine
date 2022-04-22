@@ -9,7 +9,6 @@ wr = write_reviews.WriteGoogleReviews()
 
 class MainRun:
     def run_all(self):
-        wr.remove_dups()
         line_number = 0
         number_of_reviews_written = 0
         how_long_to_wait = gi.get_input()
