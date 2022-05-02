@@ -1,5 +1,6 @@
 import random
 import time
+import traceback
 
 import numpy as np
 import requests
@@ -97,90 +98,101 @@ class WriteGoogleReviews:
             if len(place) == 0:
                 if key := gi.ask_to_find_new_places():
                     self.search_for_places(key, False)
+                    return self.read_places(0)
                 else:
                     print(
                         "You didn't chose to find new places, but we're out. You're gonna have to refill it manually\n"
                         "Exiting...")
                     time.sleep(3)
-                    exit(0)
+                    return False
             return str(np.char.strip(place[where_to_read]))
 
-    def write_reviews(self,line_number):
-        self.browser.get('https://www.google.com/maps/@-70.6502477,47.2431857,3z')
-
+    def write_reviews(self,place):
         message_to_write = self.read_default_message()
+        try:
+            self.search_on_maps(place)
+            time.sleep(4)
 
-        place = self.search_on_maps(line_number)
-        time.sleep(4)
-
-        _ = self.browser.find_element(By.XPATH,
-                                      value='//*[@id="pane"]/div/div[1]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/span[1]/span/span[1]/span[2]/span[1]/button')
-        _.click()
-
-        time.sleep(4)
-        _ = self.browser.find_element(By.XPATH, value='//*[@id="pane"]/div/div[1]/div/div/div[2]/div[4]/div/button')
-        _.click()
-        time.sleep(4)
-        for x in range(1, 8):
-            if x == 7:
-                self.act.send_keys(Keys.SPACE)
-                self.act.perform()
-            self.act.send_keys(Keys.TAB)
-            self.act.perform()
-            time.sleep(0.5)
-        time.sleep(3)
-        for x in message_to_write:
-            self.act.send_keys(x)
-            self.act.perform()
-        time.sleep(random.randint(1, 5))
-        time.sleep(0.5)
-        for x in range(1, 4):
-            self.act.send_keys(Keys.TAB)
-            self.act.perform()
-            time.sleep(0.6)
-            if x == 1:
-                self.act.send_keys(Keys.SPACE)
-                self.act.perform()
-                time.sleep(5)
-                for y in range(6):
-                    self.act.send_keys(Keys.TAB).perform()
-                    time.sleep(1)
-
-            self.act.send_keys(Keys.ARROW_RIGHT).perform()
-            self.act.send_keys(Keys.ENTER).perform()
-            time.sleep(8)
-            for b in range(0, 6):
-                self.act.send_keys(Keys.TAB).perform()
-                time.sleep(1)
-            time.sleep(8)
-            self.act.send_keys(Keys.SPACE).perform()
-            for i in range(4):
-                self.act.send_keys(Keys.ARROW_RIGHT).perform()
-                self.act.send_keys(Keys.SPACE).perform()
-                time.sleep(1)
-            time.sleep(8)
-            for p in range(1, 2):
-                self.act.send_keys(Keys.TAB).perform()
-                time.sleep(1)
-            self.act.send_keys(Keys.ENTER).perform()
+            _ = self.browser.find_element(By.XPATH,
+                                          value='//*[@id="pane"]/div/div[1]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/span[1]/span/span[1]/span[2]/span[1]/button')
+            _.click()
 
             time.sleep(4)
-            break
-
-        for p in range(1, 17):
-            self.act.send_keys(Keys.TAB).perform()
+            _ = self.browser.find_element(By.XPATH, value='//*[@id="pane"]/div/div[1]/div/div/div[2]/div[4]/div/button')
+            _.click()
+            time.sleep(4)
+            for x in range(1, 8):
+                if x == 7:
+                    self.act.send_keys(Keys.SPACE)
+                    self.act.perform()
+                self.act.send_keys(Keys.TAB)
+                self.act.perform()
+                time.sleep(0.5)
+            time.sleep(3)
+            for x in message_to_write:
+                self.act.send_keys(x)
+                self.act.perform()
+            time.sleep(random.randint(1, 5))
             time.sleep(0.5)
-        time.sleep(3)
-        self.act.send_keys(Keys.ENTER).perform()
-        time.sleep(10)
-        self.act.send_keys(Keys.ESCAPE)
-        self.act.perform()
-        time.sleep(10)
-        go_back = self.browser.find_element(By.XPATH,
-                                            value='//*[@id="pane"]/div/div[1]/div/div/div[1]/div/div/div[1]/span/button')
-        go_back.click()
-        time.sleep(1)
-        return place, self.browser.current_url
+            for x in range(1, 4):
+                self.act.send_keys(Keys.TAB)
+                self.act.perform()
+                time.sleep(0.6)
+                if x == 1:
+                    self.act.send_keys(Keys.SPACE)
+                    self.act.perform()
+                    time.sleep(5)
+                    for y in range(6):
+                        self.act.send_keys(Keys.TAB).perform()
+                        time.sleep(1)
+
+                self.act.send_keys(Keys.ARROW_RIGHT).perform()
+                self.act.send_keys(Keys.ENTER).perform()
+                time.sleep(8)
+                for b in range(0, 6):
+                    self.act.send_keys(Keys.TAB).perform()
+                    time.sleep(1)
+                time.sleep(8)
+                self.act.send_keys(Keys.SPACE).perform()
+                for i in range(4):
+                    self.act.send_keys(Keys.ARROW_RIGHT).perform()
+                    self.act.send_keys(Keys.SPACE).perform()
+                    time.sleep(1)
+                time.sleep(8)
+                for p in range(1, 2):
+                    self.act.send_keys(Keys.TAB).perform()
+                    time.sleep(1)
+                self.act.send_keys(Keys.ENTER).perform()
+
+                time.sleep(4)
+                break
+
+            for p in range(1, 17):
+                self.act.send_keys(Keys.TAB).perform()
+                time.sleep(0.5)
+            time.sleep(3)
+            self.act.send_keys(Keys.ENTER).perform()
+            time.sleep(10)
+            self.act.send_keys(Keys.ESCAPE)
+            self.act.perform()
+            time.sleep(10)
+            go_back = self.browser.find_element(By.XPATH,
+                                                value='//*[@id="pane"]/div/div[1]/div/div/div[1]/div/div/div[1]/span/button')
+            go_back.click()
+            time.sleep(1)
+            return self.browser.current_url
+
+        except Exception as inst:
+            self.write_errorlog("Error writing review for: " + place, inst)
+            return False
+
+    def write_errorlog(self, txt, inst):
+        msg = txt + " " + datetime.now().strftime("%Y-%m-%d %H-%M")
+        print(msg)
+        with open(f'logs/errors.log', 'a+', encoding='UTF-8') as f:
+            tbs = traceback.format_exc()
+            print(msg + "\n" + tbs, file=f)
+            f.close()
 
     def read_default_message(self):
         result_str = ''
@@ -194,8 +206,8 @@ class WriteGoogleReviews:
 
         return result_str
 
-    def search_on_maps(self, line_number):
-        place = self.read_places(line_number)
+    def search_on_maps(self, place):
+        self.browser.get('https://www.google.com/maps/@-70.6502477,47.2431857,3z')
         self.wait.until(ec.visibility_of_element_located((By.XPATH, '//*[@id="searchboxinput"]')))
         search_box = self.browser.find_element(By.XPATH, value='//*[@id="searchboxinput"]')
         search_box.click()
@@ -216,8 +228,8 @@ class WriteGoogleReviews:
             _.click()
         except selenium.common.exceptions.NoSuchElementException and selenium.common.exceptions.TimeoutException:
             pass
-        time.sleep(6)
-        return place
+        time.sleep(2)
+        return
 
     def remove_places_from_list(self):
         with open('restaurant_names.txt', encoding='UTF-8') as file:
@@ -227,20 +239,13 @@ class WriteGoogleReviews:
         with open('restaurant_names.txt', 'w+', encoding='UTF-8') as f:
             f.writelines(_)
 
-    def write_logs(self, current_place, url):
-        with open(f'logs/BigLog.txt', 'r+', encoding='UTF-8') as log:
-            log_lines = log.readlines()
-            log_lines.append(
-                f"""Place: '{current_place}'\tTime: {datetime.now().strftime("%Y-%m-%d %H-%M")}\tURL: '{url}'\n""")
-            open('logs/BigLog.txt', 'w+', encoding='UTF-8').writelines(log_lines)
+    def write_logs(self, current_place, url, result, number):
+        numstr = str(number)
+        with open(f'logs/names.log', 'a+', encoding='UTF-8') as log:
+            log.write(
+                f"""{numstr}\t{current_place}\t{datetime.now().strftime("%Y-%m-%d %H-%M")}\t{result}\t{url}\n""")
             log.close()
 
-    def remove_dups(self):
-        with open('restaurant_names.txt', 'r+', encoding='UTF-8') as file:
-            lines = file.readlines()
-            lines = list(set(lines))
-            file.close()
-        open('restaurant_names.txt', 'w+', encoding='UTF-8').writelines(lines)	
 
 
 
