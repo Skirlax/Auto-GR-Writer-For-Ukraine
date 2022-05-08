@@ -16,3 +16,39 @@
                 Time: 2022-04-06 17-55
 
                 ----------------------------
+---------------------------
+
+                Place: 'Maryssya, restaurant'
+ 
+                URL: 'https://www.google.com/maps/place/Barbari/@45.0266385,41.9152401,13z/data=!4m9!1m2!2m1!1sMaryssya,+restaurant+Russia!3m5!1s0x40f900996b1e6a53:0x9f5319467b8c257a!8m2!3d45.0349503!4d41.9578478!15sChtNYXJ5c3N5YSwgcmVzdGF1cmFudCBSdXNzaWFaHCIabWFyeXNzeWEgcmVzdGF1cmFudCBydXNzaWGSARNnZW9yZ2lhbl9yZXN0YXVyYW50'
+
+                Time: 2022-04-27 20-14
+
+                ----------------------------
+---------------------------
+
+                Place: 'ПатиссонMarkt'
+ 
+                URL: 'https://www.google.com/maps/place/%D0%9F%D0%B0%D1%82%D0%B8%D1%81%D1%81%D0%BE%D0%BDMarkt/@54.7203473,20.4852462,17z/data=!4m5!3m4!1s0x46e33dfbe3ca3ca3:0x6a33de0b7b95cbe4!8m2!3d54.7203473!4d20.4874402'
+
+                Time: 2022-04-27 20-17
+
+                ----------------------------
+---------------------------
+
+                Place: 'Khatshokharsho'
+ 
+                URL: 'https://www.google.com/maps/place/Khatshokharsho/@52.7660288,41.3952771,17z/data=!4m5!3m4!1s0x4139113310d189eb:0xd465839046d1e4e1!8m2!3d52.7660288!4d41.3974711'
+
+                Time: 2022-04-27 20-36
+
+                ----------------------------
+---------------------------
+
+                Place: 'Moscow Gastrobar'
+ 
+                URL: 'https://www.google.com/maps/place/Gastronomicheskiy+Restoran+Moskva/@51.6559232,34.711248,6z/data=!4m9!1m2!2m1!1sMoscow+Gastrobar+Restaurant+Russia!3m5!1s0x413b2ef5c83aacc5:0x2db234108bb14edb!8m2!3d51.6559188!4d39.1936584!15sCiJNb3Njb3cgR2FzdHJvYmFyIFJlc3RhdXJhbnQgUnVzc2lhWiQiIm1vc2NvdyBnYXN0cm9iYXIgcmVzdGF1cmFudCBydXNzaWGSAQpyZXN0YXVyYW50'
+
+                Time: 2022-04-27 20-46
+
+                ----------------------------
