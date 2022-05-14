@@ -35,7 +35,7 @@ class WriteGoogleReviews:
             fix_hairline=True
             )
 
-    wait = WebDriverWait(browser, 180)
+    wait30 = WebDriverWait(browser, 30)
 
     def login_to_maps(self):
         self.browser.get(
@@ -114,15 +114,17 @@ class WriteGoogleReviews:
         message_to_write = self.read_default_message()
 
         place = self.search_on_maps(line_number)
-        time.sleep(5)
-        time.sleep(4)
-        _ = self.browser.find_element(By.XPATH,
-                                      value='//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/span[1]/span/span[1]/span[2]/span[1]/button')
-        _.click()
+        self.wait30.until(ec.element_to_be_clickable((By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/span[1]/span/span[1]/span[2]/span[1]/button'))).click()
+        # time.sleep(5)
+        # time.sleep(4)
+        # _ = self.browser.find_element(By.XPATH,
+        #                               value='//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/span[1]/span/span[1]/span[2]/span[1]/button')
+        # _.click()
 
-        time.sleep(4)
-        _ = self.browser.find_element(By.XPATH, value='//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[4]/div/button')
-        _.click()
+        # time.sleep(4)
+        self.wait30.until(ec.element_to_be_clickable((By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[4]/div/button'))).click()
+        # _ = self.browser.find_element(By.XPATH, value='//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[4]/div/button')
+        # _.click()
         time.sleep(8)
         for x in range(1, 8):
             if x == 7:
@@ -175,13 +177,14 @@ class WriteGoogleReviews:
             time.sleep(0.5)
         time.sleep(3)
         self.act.send_keys(Keys.ENTER).perform()
-        time.sleep(10)
+        time.sleep(5)
         self.act.send_keys(Keys.ESCAPE)
         self.act.perform()
-        time.sleep(10)
-        go_back = self.browser.find_element(By.XPATH,
-                                            value='//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div/div/div[1]/span/button')
-        go_back.click()
+        # time.sleep(10)
+        self.wait30.until(ec.element_to_be_clickable((By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div/div/div[1]/span/button'))).click()
+        # go_back = self.browser.find_element(By.XPATH,
+        #                                     value='//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div/div/div[1]/span/button')
+        # go_back.click()
         time.sleep(1)
         return place, self.browser.current_url
 
@@ -199,7 +202,7 @@ class WriteGoogleReviews:
 
     def search_on_maps(self, line_number):
         place = self.read_places(line_number)
-        self.wait.until(ec.visibility_of_element_located((By.XPATH, '//*[@id="searchboxinput"]')))
+        self.wait30.until(ec.visibility_of_element_located((By.XPATH, '//*[@id="searchboxinput"]')))
         search_box = self.browser.find_element(By.XPATH, value='//*[@id="searchboxinput"]')
         search_box.click()
         if 'Restaurant' not in place and 'restaurant' not in place:
