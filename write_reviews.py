@@ -117,11 +117,11 @@ class WriteGoogleReviews:
         time.sleep(5)
         time.sleep(4)
         _ = self.browser.find_element(By.XPATH,
-                                      value='//*[@id="pane"]/div/div[1]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/span[1]/span/span[1]/span[2]/span[1]/button')
+                                      value='//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/span[1]/span/span[1]/span[2]/span[1]/button')
         _.click()
 
         time.sleep(4)
-        _ = self.browser.find_element(By.XPATH, value='//*[@id="pane"]/div/div[1]/div/div/div[2]/div[4]/div/button')
+        _ = self.browser.find_element(By.XPATH, value='//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[4]/div/button')
         _.click()
         time.sleep(8)
         for x in range(1, 8):
@@ -180,7 +180,7 @@ class WriteGoogleReviews:
         self.act.perform()
         time.sleep(10)
         go_back = self.browser.find_element(By.XPATH,
-                                            value='//*[@id="pane"]/div/div[1]/div/div/div[1]/div/div/div[1]/span/button')
+                                            value='//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div/div/div[1]/span/button')
         go_back.click()
         time.sleep(1)
         return place, self.browser.current_url
