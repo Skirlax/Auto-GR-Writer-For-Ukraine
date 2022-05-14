@@ -1,552 +1,539 @@
-<<<<<<< HEAD
-Tunguska
-Restaurant "Jag"
-Oregano
-Pel'mennaya
-BASE
-El Greco
-Restoran Khalva Cheboksary
-Yarila
-Серебряная башня
-Tkemali
-музей&ресторан "ВКарелииЕсть" alcohol free
-Kaspiyskiy Bereg
-Balkon
-Muus Khaya
-Необистро Trip | ресторан Центральный район
-Pizza House
-Cafe seven
-Ресторан Амур
-Restoranchik "Kurshchavel'"
-Esperanto
-Mamino
-Fregat
-Schneider-Weisse
-Nostal'giya
-El Passo
-Lyublin
-Sakura
-U Shveyka
-FOUR
-Brigantina
-Levin's Bar CORNER 74
-=======
-IL Патио
-Zhemchuzhnyy, Restoran
-Utka
-Frying pan, fast food restaurant
-Darling Fish
-Veggie Bro
-Shtof - Irkutsk
-Jean Huang Lu
-Barbari
-Александрополь
-Bochka
-Stolitsa Dereven'
-La Grotta
-Bazaar restaurant
->>>>>>> kamil
-Polli
-Гурмерия De Paris
-Ryba
-NICE - караоке, вино и еда
-Hurma
-Tsarskoye Selo
-Basturma
-Kruzhka
-Pizzot
-Chito
-Ogni
-Steak House Syndicate
-Khochu Lyuley
-Dacha
-Shef Pushkin
-LULU
-Otel' Belladzhio
-Gold of Packard
-Kazan-Mangal
-Barrakuda
-Five Star restaurant
-Korea House Restaurant
-Kitagava
-SOPKA restaurant Khabarovsk
-Gin-no Taki
-Bar Kapital
-Ресторан Famous
-Burzhuy
-Pro Sushi
-Sakura
-Ibis Kitchen Restaurant
-Ресторан Амур
-Drago Steakhouse
-Russkaya Okhota
-La Brasserie "Модерн"
-Varvara
-Solokha
-Pompano
-Al Dente
-Florentsiya
-Rozy Morozy
-Fusion
-Taverna
-Onegin Dacha
-The Terrace
-Prostolovka
-Avenyu
-Mesto Pro Testo
-Gastroport Sochi Фудмолл
-Papa Karlo
-Samobranka
-Piccolino
-Kremel'
-Restaurant
-Сибирская Пельменная "Реальный Замес"
-Bryanskiy Byk
-Hard Rock Cafe
-Багет, паштет и жёлтый плед
-Shesh-Besh
-Bistro Gavrosh
-Levin's Bar CORNER 
-Syrovar Lovkov
-Shchepka
-Bol'shoy
-Mamma Mia!
-Gruzinskiy Restoran Kuvshin
-Patio Corleone - Italian restaurant Stavropol
-Tunguska
-Syrovarnya Novosibirsk
-Pitnica Пенза
-Lugovskaya Sloboda
-Необистро Trip | ресторан Центральный район
-Olimpiya
-Davinci
-Ресторан-музей на Лермонтова
-Rodina
-Restaurant Gubernator
-Cafe LEON
-Admiral John Benbow
-Bellagio
-Prague Private Dining
-Irbis
-Кацо, Хинкальная
-Kolizey
-Restoran Zaseka
-Restobar Barashki
-Bryugge
-Sultan Bazar
-Bakladzhan
-Atlas
-Restoran Telegraf
-Private Dining
-Banquet Hall
-Ресторан Марфа
-Tygyn Darkhan
-PITNICA
-Satsivi
-ресторан ЯГЕЛЬ
-Cafe Sandro
-Cafe Pushkin
-Karin
-Figaro
-Chugunok
-Galereya Vkusa "Park Kul'tury"
-Grenok
-Café Imperial
-Trattoria Formaggi
-Khalif Aist
-U Gruzína
-Slavyanskiy
-Khinkal'naya
-Ugli
-Kabachok
-Chemodan
-Ku-Ku Dym
-Birch Grove, restaurant
-Restoran Myasko
-Sezony
-Senkevich
-Divan-Saray
-L`amore Mio, Pizzeria
-Casa Mia
-Boho
-Family restaurant "Petrovich"
-BBB
-Dzhani Restorani
-Restoran-Gostinitsa
-Restoran "Magadan"
-Bol'shoy Restoran
-Rassol'nik
-Restaurant "Vasnetsov"
-Sibirskaya Korona
-Soho
-Parnas
-Restaurant "Yesenin"
-Troitskiy
-Yekhrem Khushcha
-Suare
-Chornaya Korova
-Restoran Misha"
-Lesnaya Polyana
-Vdrova
-Polzunov
-Grafin
-Restoran Gruzinskoy I Avtorskoy Kukhni Mama Gata
-Green House
-Surikov"
-Tamerlan
-Rossinsky
-Stambul Restoran
-Fergana
-Restoran Pili-Shvili
-Fantaziya
-Mushkino
-Bakinskaya Ulitsa
-Moy Dagestan
-Restoran-Klub 12 Atm
-Loft
-Amigos Restaurant
-IL Patio
-Karel'skaya Gornitsa
-Shakherezada Stepanovna
-Carrara
-Grand House
-MISHKA BAR
-Osteria Burrata
-TAO Fish & Grill
-Hoffmann restaurant
-Makhtal
-Zhemchuzhina
-Aleksandr
-Dom Rybaka
-Gostidze Sochi
-Doge ресторан
-Barbaris
-Mc Highlander, club-cafe Scottish cuisine
-M. Olivier Bistro
-Chacha
-Grazhdane Otdykhayushchiye
-Bagrationi
-Vos'moye Chudo Sveta
-Pro "Плов"
-Iberiya
-Restaurant "Kare"
-La Gourmet
-Aura
+My Doner
+Mukka
 Pelican Restaurant
-Znatnyy Dvor
-Yasnaya Polyana
-Potaskuy, restaurant
-Muus Khaya
-FOUR
-Obshchestvo Sytykh
-Zira
-Moscow Gastrobar
-Patio Verona
-Restaurant "Bierhaus" (SPARC food)
-il gusto
-Galereya
-Chochur Muran
-Rozmarin
-Macarena
-Maryssya, restaurant
-Restoranchik "Kurshchavel'"
-Our Barash
-Restoran "Moskva"
-Cow Bar & Restaurant | Restaurant "The Cow"
-CORKs Wine Bar & Kitchen
-Atipico
-Restaurant "Forstadt"
-Ptichka-Nevelichka
-Trattoria Palermo, restaurant
-Little India
-Brikas
-Vapiano
-Kinto
-Pizza & Pasta
-Kazachiy Kuren'
-Babka Tarakhto
-Moskovskiy
-Kurgan Shooting Club
-Uncle Frank (Uncle Frank)
-Panorama Restaurant
-Asador, Steak House
-Ресторан Замок Айвенго
-Tikhiy Don
-Baklazhan
-The restaurant Sabor de la Vida de Patrick, banquet hall
-Restaurant "Jag"
-Britannica Pub
-ibis kitchen
-Myatnyy Karas'
-Gruzinskiy Restoran - Sachmeli
-NAUTILUS
-Joint Pub - Irish pub-restaurant and cafe
-Restoran Gastroli
-Khachapuri Madliani
-Kochevnik
-El Passo
-Turandot
-Khochu Pel'meni
-Esperanto
-Margarita
-Restoran-Kofeynya "Luidzhi"
-Cafe Ararat
-Urartu
-Ashsu
-Mon Plaisir restaurant on the water
-Pastarama Pasta Bar
-Traktir "Izba"
-Birdok
-Balkan-Gril'
-Blackwood
-Pizza House
-Adzhika
-Karavan-Saray
-Ekspeditsiya
-Ulus
-Лёгкий Чек+
-BEERMAN&GRILL
-Restoran Okhotnikov
-Steindamm 99
-Restaurant "Volga"
-GRILL HOUSE GROZNY
-Огонёк
-Mamadoma
-Tiflis Restaurant
-Schast'ye
-Shesh besh
-ГастроПаб «Super Good»
-Maximilian's
-Stariy Baku
-Vkus Vostoka
-Barin
-Izakaya Koi
-Rasputin
-Coffee Story
-Rezhent
-Funky food
-Gelios
-Sreda
-Restaurant "Balkan Grill"
-Bier haus
-"Benjamin Restclub"
-Augustine Restaurant & Garden
-Trapeznikov
-Restaurant La Rotonda
-Om Shanti Cafe & Bar (Индийский Центр)
-Jacard
-Zelenaya Gorchitsa
-Mishka Gastrobar
-Sytyy Barin"
-Chutnoff
-Otdykh
-Cafe seven
-Эврен - Нестеров Бизнес центр
-Avocado Queen Novosibirsk
-White Rabbit
-Beluga
-Рестобар loft&garden
-Park Khaus
-Gde zhe Krolik
-Tsentral'naya Pel'mennaya
-Restoran "Kh'yuston"
-Medved'
-Peter's
-Trattoria Fettuccine
-Uzbechka
-Veranda
-Tomagavk
+Stolitsa Dereven'
+Khochu Lyuley
+Ugli-Ugli
+Traktir Belyy
 Restaurant Ruffe
-Balkan Gril'
-Katso
-Restoran Oblomov
-CRAFT
-Kaspiyskiy Bereg
-Ramen S Utkoy
-Vysota 4285
-Promenade Restaurant
-Marani Restaurant
-Sad
-STEAK HOUSE
-Borsch & Salo
-Sherlock Holmes
-GastroKub
-Burger Khit
-My Kitchen
-Gastro-Restoran I Bar "Arbat"
-Adam and Eve
-Restoran Artist
-Cheski Krumlov
-Restoran Semeynykh Retseptov "Oliv'ye"
-Sosedi, Restoran Natsional'noy Kukhni
-Skadarliya
 Uhvat
-Restoklub "Gosti"
-Pepel I Ogon' Restoran
-Bon Appetit
-Дарьял
+Pizza House
+Soho
+Ti-Bon
+Leningrad
+Burzhuy
+Restoran "Moskva"
+SOPKA restaurant Khabarovsk
+Kazan-Mangal
+Kremel'
+Chutnoff
+Restaurant
+Mari Vanna
+Galereya
+Izakaya Koi
+Shprot
+Levin's Bar CORNER 
+Sakhalin
+Restoran Misha"
+Urartu
+Akvatoriya
+Steindamm 99
+Otel' Belladzhio
+Restoran-Kofeynya "Luidzhi"
+Rozmarin
+Joint Pub - Irish pub-restaurant and cafe
+Ресторан-музей на Лермонтова
+Coffee Story
+Restoran Okhotnikov
+Burger Khit
+BEERMAN&GRILL
+Stariy Baku
+Veggie Bro
+Сибирская Пельменная "Реальный Замес"
+Vysota 4285
+Mishka Gastrobar
+Medved'
+Cafe LEON
 Ruski
-Italoniya
-Pintseriya. Pinzeria by Bontempi
-Wasabi
-Chernoye More
-BRO Steak House
-Gray Goose Cafe
-Baranzhar
-SAVVA / САВВА
-Own Company
-hOST Restaurant
-Nikhon
+Ashsu
+Mamadoma
+Cafe Ararat
+#SibirSibir
+Grand House
+Svin'ya I Biser
+Byurger
+Rozy Morozy
+Kabachok
+Ugli
+Ibis Kitchen Restaurant
+Серебряная башня
+Druzhkova Kruzhka
+Madam Bushe
+Myasolove - Steakhouse
+Russkaya Okhota
+Cafe seven
+Florentsiya
+Roland
+Gastro-Restoran I Bar "Arbat"
+TAO Fish & Grill
 Russkiy Pivnoy Restoran "Gofman""
+Goodman
+Baget-Pashtet
+Bellagio
+Kaspiyskiy Bereg
+Vkus Vostoka
+Restoran Semeynykh Retseptov "Oliv'ye"
+Mama Roma
+Café Imperial
+Own Company
+Pepel I Ogon' Restoran
+Khachapuri Madliani
+Vapiano
+Dom Rybaka
+Lexx
+Ресторан Famous
+Kashtan
+>>>>>>> kamil
+Gruzinskiye Istorii
+Avocado Queen Novosibirsk
+Baklazhan
+Panorama Restaurant
+Figaro
+La Provincia
+U Shveyka
+Znatnyy Dvor
+Satsivi
+Solokha
+Park Khaus
+Tkemali
+Gold of Packard
+Avenyu
+Sakura
+Kupecheskiy
+<<<<<<< HEAD
+Myatnyy Karas'
+Kurgan Shooting Club
+Balkon
+Polzunov
+Obshchestvo Sytykh
+Mario-Mario ресторан
+CORKs Wine Bar & Kitchen
+Toto-Khana Restaurant
+Frying pan, fast food restaurant
+Irbis
+Balkan-Gril'
+Kinto
+Yasnaya Polyana
+Restoran "Magadan"
+Angliyskoye Posol'stvo
+M. Olivier Bistro
+Zira
+Mamuka
+Adam and Eve
+Carrara
+Перчини Grill&Wine
+Shchepka
+The Terrace
+Georgian khinkali hose
+Moy Dagestan
+Bryanskiy Byk
+Grazhdane Otdykhayushchiye
+Vos'moye Chudo Sveta
+Taras Bulba
+Ресторан Марфа
+Bol'shoy Restoran
+Shakherezada Stepanovna
+VELVET
+Fresh Buffet
+L`amore Mio, Pizzeria
+Namestnik
+Ресторан Амур
+Suare
+Restoran Khalva Cheboksary
+Peperoni
+LULU
+Restaurant "Yesenin"
+Panorama
+Samobranka
+Funky food
+Stambul Restoran
+Prostolovka
+Beshenyy Losos'
+Amigos Restaurant
+Grenok
+Restoran Myasko
+For wattle
+Shtof - Irkutsk
+Эврен - Нестеров Бизнес центр
+Restaurant "Bierhaus" (SPARC food)
+IL Patio
+Chernoye More
+Chalet restaurant
+Mordovskoye Podvor'ye
+Александрополь
+CRAFT
+Basturma
+Schast'ye
+Необистро Trip | ресторан Центральный район
+VLADBEEF
+Babka Tarakhto
+Hoffmann restaurant
+Pinot Noir
+Bon Appetit
+Varvara
+Senkevich
+Pozharka
+Shef Pushkin
+Hurma
+Багет, паштет и жёлтый плед
+Potaskuy, restaurant
+GRILL HOUSE GROZNY
+Tommy Lee
+Restaurant "Forstadt"
+Patio Corleone - Italian restaurant Stavropol
+Franki
+Muus Khaya
+музей&ресторан "ВКарелииЕсть" alcohol free
+Nikhon
+Restaurant La Rotonda
+Adzhika
+Restaurant "Jag"
+Mon Plaisir restaurant on the water
+Steak House Syndicate
+Zhemchuzhnyy, Restoran
+GastroKub
+Khinkali House
+Restoran "Matador"
+Mesto Pro Testo
+Traktir" "Sibirskiy Dvor"
+PAHLAVA
+BRO Steak House
+Odessa-mama
+Karin
+Divan-Saray
+White Rabbit
+Khinkal'naya
+Rustaveli
+Sezony
+SAVVA / САВВА
+Pitnica Пенза
+Green House
+Огонёк
+LEO Wine & Kitchen
+Restoran Gk "Bashkiriya"
+Barbari
+Russkiy Restaurant
+La Vaca
+Peter's
+Sreda
+Old Tower
+Wasabi
+BBQ BAR
+Lepim I Varim
+Uncle Frank (Uncle Frank)
+Beluga
+Private Dining
+Trattoria Formaggi
+El Greco
+Machete Steyk-Khaus
+Vdrova
+Chesnok
+Barrakuda
+Admiral John Benbow
+Restaurant Gubernator
+Tamerlan
+Fregat
+Restoran-Klub 12 Atm
+My Kitchen
+Asador, Steak House
+Barbaris
+Kazachiy Kuren'
 The Kukhnya
-Odisseya
-Ресторан Eterno
-MORIKI - seafood•prosecco•bistro
+Aleksandr
+Restaurant Baron Munchausen
+Karel'skaya Gornitsa
+Turandot
+Chornaya Korova
+Bagrationi
+IL Патио
+Utka
+СИБИРЬСИБИРЬ
+Mushkino
+Little India
+Sytyy Barin"
+Kolizey
+Khatshokharsho
+URBAN FOOD
+Chemodan
+Restoran "Klassik"
+Mama Fuku
+Azyk-Tulek
+Restoran Zaseka
+Ku-Ku Dym
+Green Island
+Pastarama Pasta Bar
+Bakinskaya Ulitsa
+Polli
+Taverna
+La Gourmet
+Barashki
+Family restaurant "Petrovich"
+Shesh besh
+Dublin
+Mcdonald's
+Restoran Gruzinskoy I Avtorskoy Kukhni Mama Gata
+Cafe Sandro
+Balkan Gril'
+Maximilian's
+ресторан Osteria Mario и грузинское бистро Швили
+Surikov"
+Sibirskaya Korona
+Dikan'ka
+Parnas
+Uzbechka
+Sultan Bazar
+Maryssya, restaurant
 Al dente горы
+Sixty
+Sherlock Holmes
+Megapolisbar People
+Restoran "Shtof"
+STEAK HOUSE
+Restaurant "Vasnetsov"
+U Gruzína
+SAMOVAR
+El Passo
+Restoran Telegraf
+Katso
+Ресторан Patio
+Syrovarnya Novosibirsk
+Margarita
+Boho
+Bakladzhan
+Birch Grove, restaurant
+Bulgakov
+Lugovskaya Sloboda
+Troitskiy
 Brigantina
 Restoran Skovoroda
-Myasolove - Steakhouse
-Royal Burger
-Rustaveli
-Meetmeat
-Tkemali
-Amigos Gastrobar
-Pel'men'
-Madam Bushe
-Bulgakov
-Restaurant Diaghilev
-NEW YORK, служба доставки суши и пиццы
-cafe Lukum
-Olivo
-Plum
-Green Island
+BoEmi
+Kochevnik
+Davinci
+Atlas
+ресторан ЯГЕЛЬ
 Mimino
-Kashtan
-Ugli-Ugli
-Angliyskoye Posol'stvo
-Mcdonald's
-Tommy Lee
-Khinkali House
-Sheykh Palas
-Arkhiv
-Odessa-mama
-Gril'-Bar Antrekot
-Restoran Gk "Bashkiriya"
-Doner Lankon
-Mangal Khaus
-Yarila
-музей&ресторан "ВКарелииЕсть" alcohol free
-Cheshuya
-Franki
-PAHLAVA
-EL Rancho
-Restoran "Matador"
-Dikan'ka
-La Vaca
-Trattoria Il Gusto
-Restoran Druz'ya Vostok
-Mamino
-Gruzinskiye Kanikuly
-Lyublin
-Peperoni
-Restoran Khalva Cheboksary
-Meat & Wine
-BBQ BAR
-Pinot Noir
-Серебряная башня
-Russkiy Restaurant
-Pozharka
-Govinda
-Dezhavyu
-Megapolisbar People
-Goodman, steak house
-Mordovskoye Podvor'ye
-Leningrad
-Fresh Buffet
-Koster
-Ti-Bon
-PuppenHaus
-VLADBEEF
-Mukka
-SEASONS
-Byurger
-Druzhkova Kruzhka
-Kruzhalo
 Nebo
-Salyut
-BASE
-Gruzinskiye Istorii
-Mario-Mario ресторан
-Zvozdnaya Noch'
-Mama Fuku
-Mamuka
-Kurkuma
-URBAN FOOD
-Fettuccine Trattoria
-VELVET
-Annam Brahma Restaurant
-Хачу Шашлык! Ресторан имени Мишки Фрдэ
-Restoran "Klassik"
-Toto-Khana Restaurant
-Restoran "Shtof"
-Tetka Fisher
-Хмели & Сунели
-Portfolio restaurant
-Penaty
-Machete Steyk-Khaus
-Prichal - Semeynoye Kafe V Tveri, Restoran
-Oreh
-Strizhi
-Pkhali-Khinkali
-Baget-Pashtet
-Shprot
-Guinness Steak Pub Tver
-Pel'mennaya
-Akvatoriya
-U Shveyka
-SAMOVAR
-Traktir Na Naberezhnoy
-Restaurant "Dacha"
+Traktir "Izba"
+Moskovskiy
+Amigos Gastrobar
+Lyublin
+cafe Lukum
+BBB
 Balkan Grill
-Chesnok
-Traktir" "Sibirskiy Dvor"
-Lexx
-ресторан Osteria Mario и грузинское бистро Швили
-Staryy Gorod
-Panorama
-Ресторан Patio
-СИБИРЬСИБИРЬ
-Argo
-El Greco
-Yar
-Ресторан «Карелия» (Гастрономическая карта России)
-For wattle
-VERIKO
-Adzhikinezhal'
-Kupecheskiy
+Syrovar Lovkov
+Karavan-Saray
+Slavyanskiy
+Promenade Restaurant
+Pro "Плов"
+Dacha
+Marani Restaurant
+Blackwood
+Gin-no Taki
+Meat & Wine
+Pizza & Pasta
+Drago Steakhouse
+Jean Huang Lu
+Koster
+Cheski Krumlov
+Bar Kapital
+Guinness Steak Pub Tver
+ГастроПаб «Super Good»
+Borsch & Salo
+Trapeznikov
+Atipico
 Pinocchio Djan
-Roland
-Namestnik
-Zötler Bier
-Khinkali
-Khatshokharsho
-Ресторан Carlsson
-Dublin
-Georgian khinkali hose
-Mama Roma
-Fregat
-Chito Grito
-Traktir Belyy
-Kazachok
-La Provincia
-Перчини Grill&Wine
-LEO Wine & Kitchen
-Svin'ya I Biser
-My Doner
-Beshenyy Losos'
+Sad
+Bol'shoy
+Ryba
+La Brasserie "Модерн"
+Chito
+Tiflis Restaurant
+Penaty
+Prague Private Dining
+Cow Bar & Restaurant | Restaurant "The Cow"
+Iberiya
+Restoran "Kh'yuston"
+Tsentral'naya Pel'mennaya
+Bistro Gavrosh
+Лёгкий Чек+
+Grafin
+Plum
+Oreh
+Chacha
+Trattoria Fettuccine
+Moscow Gastrobar
+Korea House Restaurant
+Augustine Restaurant & Garden
+Olivo
+Bazaar restaurant
+Levin's Bar CORNER 74
+Odisseya
+Gruzinskiye Kanikuly
+FOUR
 Schneider-Weisse
+ibis kitchen
+Gray Goose Cafe
+il gusto
+Hard Rock Cafe
+Kurkuma
+NEW YORK, служба доставки суши и пиццы
+Traktir Na Naberezhnoy
+Kruzhalo
+Ресторан «Карелия» (Гастрономическая карта России)
+Strizhi
+Al Dente
+Veranda
+Rasputin
+Restoran Druz'ya Vostok
+Yekhrem Khushcha
+Fergana
+Adzhikinezhal'
+Galereya Vkusa "Park Kul'tury"
+Gruzinskiy Restoran - Sachmeli
+Casa Mia
+Restaurant "Balkan Grill"
+Ulus
+Otdykh
+Кацо, Хинкальная
+Prichal - Semeynoye Kafe V Tveri, Restoran
+Ресторан Carlsson
+Pel'mennaya
+Khochu Pel'meni
+Tetka Fisher
+MORIKI - seafood•prosecco•bistro
+Ptichka-Nevelichka
+SEASONS
+Argo
+Mamino
+=======
+Jacard
+>>>>>>> parent of ea19acc... Final Version 3 ...
+Papa Karlo
+Zhemchuzhina
+Five Star restaurant
+Banquet Hall
+Osteria Burrata
+Portfolio restaurant
+Rassol'nik
+Restoran Pili-Shvili
+Rodina
+Tunguska
+Barin
+Baranzhar
+"Benjamin Restclub"
+Restaurant "Volga"
+Rossinsky
+Aura
+Cheshuya
+Pro Sushi
+Trattoria Il Gusto
+Ramen S Utkoy
+Cafe Pushkin
+Yarila
+Yar
+Tygyn Darkhan
+Gruzinskiy Restoran Kuvshin
+Дарьял
+Tomagavk
+Restaurant Diaghilev
+Nostal'giya
 ДОМ ТАМ, ГДЕ «КУХНЯ»!
-Barashki
-Azyk-Tulek
-Chalet restaurant
-Restaurant Baron Munchausen
+PuppenHaus
+Severyane
+Italoniya
+Brikas
+Skadarliya
+VERIKO
+Onegin Dacha
+Рестобар loft&garden
+Ресторан Eterno
+Darling Fish
+Goodman, steak house
+Fantaziya
+NAUTILUS
+Restaurant "Dacha"
+Zelenaya Gorchitsa
+Gastroport Sochi Фудмолл
+PITNICA
+Fettuccine Trattoria
+Oregano
+Royal Burger
+Mc Highlander, club-cafe Scottish cuisine
+Salyut
+EL Rancho
+Restaurant "Kare"
+hOST Restaurant
+Piccolino
+Restoran-Gostinitsa
+Restoran Artist
+Bier haus
+Restoran Gastroli
+Chito Grito
+AQ Kitchen
+Loft
+Restoranchik "Kurshchavel'"
+Mangal Khaus
+Хачу Шашлык! Ресторан имени Мишки Фрдэ
+Govinda
+Mamma Mia!
+BASE
+La Grotta
+Kitagava
+Gril'-Bar Antrekot
+Pizzot
+Doge ресторан
+Meetmeat
+Pintseriya. Pinzeria by Bontempi
+Chugunok
+The restaurant Sabor de la Vida de Patrick, banquet hall
+Khalif Aist
+Esperanto
+Annam Brahma Restaurant
+Shesh-Besh
+Our Barash
+Olimpiya
+Om Shanti Cafe & Bar (Индийский Центр)
+MISHKA BAR
+Bryugge
+Sheykh Palas
+Dzhani Restorani
+Gde zhe Krolik
+Pompano
+Kazachok
+Bochka
+Britannica Pub
+Zötler Bier
+Fusion
+Gostidze Sochi
+Гурмерия De Paris
+Хмели & Сунели
+Ресторан Замок Айвенго
+Zvozdnaya Noch'
+Restobar Barashki
+Grand Cafe Dr. Jhivago
+Tikhiy Don
+Trattoria Palermo, restaurant
+Tsarskoye Selo
+Khinkali
+Dezhavyu
+Macarena
+Kruzhka
+Matryoshka Restaurant
+Makhtal
+Rezhent
+Ogni
+Pel'men'
+Arkhiv
+Ekspeditsiya
+Doner Lankon
+Staryy Gorod
+Gelios
+Pkhali-Khinkali
+Restoklub "Gosti"
+NICE - караоке, вино и еда
+Birdok
+Lesnaya Polyana
+Patio Verona
+Chochur Muran
+Sosedi, Restoran Natsional'noy Kukhni
+Restoran Oblomov
