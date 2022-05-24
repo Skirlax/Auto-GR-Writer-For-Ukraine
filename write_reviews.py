@@ -23,7 +23,7 @@ he = handle_exceptions.Exceptions()
 class WriteGoogleReviews:
     opt = webdriver.ChromeOptions()
     opt.add_argument('--disable-blink-features=AutomationControlled')
-    browser = webdriver.Chrome(options=opt, executable_path="ChromeDriver101/chromedriver")
+    browser = webdriver.Chrome(options=opt, executable_path="ChromeDriver/chromedriver")
     act = ActionChains(browser)
     stealth(browser,
             user_agent='DN',

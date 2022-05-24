@@ -1,7 +1,11 @@
 __pycache__/*
 logs/*
+ChromeDriver101/*
+ChromeDriver/*
 
 *.xml
+restaurant_names*
+
 /.idea/GoogleReviews.iml
 /.idea/GoogleReviews.iml
 /.idea/inspectionProfiles/profiles_settings.xml
