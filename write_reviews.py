@@ -115,10 +115,8 @@ class WriteGoogleReviews:
         message_to_write = self.read_default_message()
 
         place = self.search_on_maps(line_number)
-        try:
-            self.wait5.until(ec.element_to_be_clickable((By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/span[1]/span/span[1]/span[2]/span[1]/button'))).click()
-        except selenium.common.exceptions.TimeoutException:
-            pass
+        self.wait5.until(ec.element_to_be_clickable((By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/span[1]/span/span[1]/span[2]/span[1]/button'))).click()
+
         # time.sleep(5)
         # time.sleep(4)
         # _ = self.browser.find_element(By.XPATH,
