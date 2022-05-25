@@ -36,6 +36,7 @@ class WriteGoogleReviews:
             )
 
     wait30 = WebDriverWait(browser, 30)
+    wait5 = WebDriverWait(browser, 5)
 
     def login_to_maps(self):
         self.browser.get(
@@ -110,11 +111,14 @@ class WriteGoogleReviews:
 
     def write_reviews(self, line_number):
         self.browser.get('https://www.google.com/maps/@-70.6502477,47.2431857,3z')
-
+        self.browser.set_window_size(200, 800)
         message_to_write = self.read_default_message()
 
         place = self.search_on_maps(line_number)
-        self.wait30.until(ec.element_to_be_clickable((By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/span[1]/span/span[1]/span[2]/span[1]/button'))).click()
+        try:
+            self.wait5.until(ec.element_to_be_clickable((By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/span[1]/span/span[1]/span[2]/span[1]/button'))).click()
+        except selenium.common.exceptions.TimeoutException:
+            pass
         # time.sleep(5)
         # time.sleep(4)
         # _ = self.browser.find_element(By.XPATH,
@@ -122,6 +126,7 @@ class WriteGoogleReviews:
         # _.click()
 
         # time.sleep(4)
+        # self.browser.set_window_size()
         self.wait30.until(ec.element_to_be_clickable((By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[4]/div/button'))).click()
         # _ = self.browser.find_element(By.XPATH, value='//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[4]/div/button')
         # _.click()
@@ -216,9 +221,9 @@ class WriteGoogleReviews:
         search_box.send_keys(Keys.ENTER)
         try:
             WebDriverWait(self.browser, 10).until(ec.visibility_of_element_located(
-                (By.XPATH, '//*[@id="pane"]/div/div[1]/div/div/div[2]/div[1]/div[3]/div/a')))
+                (By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[1]/div[3]/div/a')))
             _ = self.browser.find_element(By.XPATH,
-                                          value='//*[@id="pane"]/div/div[1]/div/div/div[2]/div[1]/div[3]/div/a')
+                                          value='//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[1]/div[3]/div/a')
             _.click()
         except selenium.common.exceptions.NoSuchElementException and selenium.common.exceptions.TimeoutException:
             pass
